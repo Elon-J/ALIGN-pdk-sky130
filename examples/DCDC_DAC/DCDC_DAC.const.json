@@ -1,0 +1,4 @@
+[   {"constraint": "PowerPorts", "ports": ["VPWR"]},
+    {"constraint": "GroundPorts", "ports": ["VGND"]},
+    {"constraint": "CompactPlacement", "style": "center"}
+]

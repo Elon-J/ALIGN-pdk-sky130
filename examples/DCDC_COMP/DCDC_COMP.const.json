@@ -1,0 +1,4 @@
+[
+	{"constraint": "AspectRatio", "subcircuit": "DCDC_COMP", "ratio_high": 1},
+	{"constraint": "CompactPlacement", "style": "center"}
+]

@@ -1,0 +1,337 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+'\\wsl.localhost\Ubuntu-20.04\home\elonjia\Desktop\tool_package\ALIGN-pdk-sky130\examples'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Fri May 27 14:07:41 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+PYCHARM PROFESSIONAL EDITION WITH ANACONDA PLUGIN = D:\Pycharm\PyCharm Professional Edition with Anaconda plugin 2020.2.1\bin;
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := C:/Windows
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = F:\OneDrive-Umich\OneDrive - Umich
+# environment
+PUBLIC = C:\Users\Public
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\ROG\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-202237aa-ee9e-4cb9-986a-a62d8c6974be-sock
+# environment
+VSCODE_CWD = \\wsl.localhost\Ubuntu-20.04\home\elonjia\Desktop\tool_package\ALIGN-pdk-sky130\examples
+# environment
+PATH = C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;D:\��������\LeX_Live\texlive\2020\bin\win32;D:\pro_TeXt\miktex\bin\x64\;D:\LeX_Live\texlive\2020\bin\win32;E:\MATLAB\runtime\win64;E:\MATLAB\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64;D:\Modelsim10.6\win64;C:\Users\ROG\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\ROG\AppData\Local\Programs\Python\Python310\;C:\Users\ROG\AppData\Local\Microsoft\WindowsApps;D:\Pycharm\PyCharm Professional Edition with Anaconda plugin 2020.2.1\bin;;C:\Users\ROG\.dotnet\tools;C:\Users\ROG\AppData\Local\GitHubDesktop\bin;C:\Program Files\SSHFS-Win\bin;C:\Program Files (x86)\WinFsp\bin;D:\Microsoft VS Code\bin;D:\Modelsim10.6\win64;D:\Pycharm\PyCharm 2021.3.2\bin;
+# environment
+LM_LICENSE_FILE = E:\FPGA_PACKAGE\altera\12.0\modelsim_ae\win32aloem\license.dat
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+NIEXTCCOMPILERSUPP = E:\Multisim14.0\Shared\ExternalCompilerSupport\C\
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\ROG
+# 
+ environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SOPC_KIT_NIOS2 = E:\FPGA_PACKAGE\altera\12.0\nios2eds
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17572_TJZATKPWVQNVCQPK
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = JJW-LAPTOP
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+NVIDIAWHITELISTED = 0x01
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ROG
+# environment
+MGLS_LICENSE_FILE = D:\Modelsim10.6\LICENSE.TXT
+# environment
+KMP_DUPLICATE_LIB_OK = TRUE
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ROG\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\JJW-LAPTOP
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = JJW-LAPTOP
+# environment
+GAMEFIRSTUSERPATH = C:\ProgramData\ASUS\GameFirst
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHIM_MCCOMPAT = 0x810000001
+# environment
+ONEDRIVECOMMERCIAL = F:\OneDrive-Umich\OneDrive - Umich
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+ACSVCPORT = 17532
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\ROG\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b6e978485952aa57ecaee5068da3c4da-1.67.2-main-sock
+# environment
+HOMEPATH = \Users\ROG
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ROG\AppData\Roaming
+# environment
+TEMP = C:\Users\ROG\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+QUARTUS_ROOTDIR = E:\FPGA_PACKAGE\altera\12.0\quartus
+# automatic
+<F = $(notdir $<)
+# environment
+MKL_SERIAL = YES
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = a502
+# environment
+PYCHARM = D:\Pycharm\PyCharm 2021.3.2\bin;
+# environment
+MAKELEVEL := 0
+# environment
+VLOG = D:\Modelsim10.6\win64
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+GAMETURBO = C:\Program Files (x86)\ASUS\GameFirst\
+# environment
+VSCODE_PID = 17572
+# environment
+USERDOMAIN_ROAMINGPROFILE = JJW-LAPTOP
+# variable set hash-table stats:
+# Load=104/1024=10%, Rehash=0, Collisions=11/121=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# : could not be stat'd.
+# D:\��������\LeX_Live\texlive\2020\bin\win32: could not be stat'd.
+# C:\Users\ROG\.dotnet\tools: could not be stat'd.
+# E:\MATLAB\bin (key E:/MATLAB/bin, mtime 1628664889): 20 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1633588737): 32 files, no impossibilities.
+# C:\Program Files\SSHFS-Win\bin (key C:/Program Files/SSHFS-Win/bin, mtime 1643256797): 19 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1641982975): 172 files, no impossibilities.
+# . (key C:/Windows, mtime 1650573085): 161 files, no impossibilities.
+# D:\LeX_Live\texlive\2020\bin\win32 (key D:/LeX_Live/texlive/2020/bin/win32, mtime 1610089743): 538 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1604366502): 10 files, no impossibilities.
+# D:\Pycharm\PyCharm 2021.3.2\bin (key D:/Pycharm/PyCharm 2021.3.2/bin, mtime 1644097977): 29 files, no impossibilities.
+# C:\Users\ROG\AppData\Local\GitHubDesktop\bin (key C:/Users/ROG/AppData/Local/GitHubDesktop/bin, mtime 1640674252): 4 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1631769919): 10 files, no impossibilities.
+# C:\Users\ROG\AppData\Local\Microsoft\WindowsApps (key C:/Users/ROG/AppData/Local/Microsoft/WindowsApps, mtime 1653620051): 54 files, no impossibilities.
+# D:\Pycharm\PyCharm Professional Edition with Anaconda plugin 2020.2.1\bin (key D:/Pycharm/PyCharm Professional Edition with Anaconda plugin 2020.2.1/bin, mtime 1644103366): 5 files, no impossibilities.
+# D:\pro_TeXt\miktex\bin\x64\ (key D:/pro_TeXt/miktex/bin/x64/, mtime 1651050299): 673 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1631770044): 4 files, no impossibilities.
+# D:\Modelsim10.6\win64 (key D:/Modelsim10.6/win64, mtime 1643803785): 140 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python37_64 (key C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_64, mtime 1643797654): 20 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1614584894): 5 files, no impossibilities.
+# D:\Microsoft VS Code\bin (key D:/Microsoft VS Code/bin, mtime 1652911239): 4 files, no impossibilities.
+# E:\MATLAB\runtime\win64 (key E:/MATLAB/runtime/win64, mtime 1628664856): 10 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1650573085): 161 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1631770050): 7 files, no impossibilities.
+# C:\Program Files (x86)\WinFsp\bin (key C:/Program Files (x86)/WinFsp/bin, mtime 1643255752): 19 files, no impossibilities.
+# C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1648708486): 8 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1609955689): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1653603248): 3313 files, no impossibilities.
+# C:\Users\ROG\AppData\Local\Programs\Python\Python310\ (key C:/Users/ROG/AppData/Local/Programs/Python/Python310/, mtime 1643801983): 22 files, no impossibilities.
+# C:\Users\ROG\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/ROG/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1643839850): 12 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1604366510): 5 files, no impossibilities.
+
+# 5465 files, no impossibilities in 32 directories.
+
+# Implicit Rule 
+make.exe: *** No rule to make target `all'.  Stop.
+
+s
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Fri May 27 14:07:41 2022
+
+ 

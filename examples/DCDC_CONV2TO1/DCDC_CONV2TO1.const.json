@@ -1,0 +1,11 @@
+[	
+	{"constraint": "CompactPlacement", "style": "center"},
+	{"constraint": "ConfigureCompiler", "is_digital": false},
+	{"constraint" : "PortLocation", "ports" : ["Y0_TOP", "Y0_BOT"], "location" : "BL"},
+	{"constraint" : "PortLocation", "ports" : ["Y1_TOP", "Y1_BOT"], "location" : "BR"},
+    {"constraint" : "SymmetricNets", "net1" : "clk1", "net2" : "clk0", "direction" :"H"},
+    {"constraint" : "SymmetricNets", "net1" : "clk1b", "net2" : "clk0b", "direction" : "H"},
+	{"constraint" : "NetConst","nets" : ["CLK1", "CLK1B", "CLK0", "CLK0B"],"criticality" : 50},
+	{"constraint" : "HorizontalDistance", "abs_distance" : 430},
+	{"constraint" : "VerticalDistance", "abs_distance" : 420}
+]

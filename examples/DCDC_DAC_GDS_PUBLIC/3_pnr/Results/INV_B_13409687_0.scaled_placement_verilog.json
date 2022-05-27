@@ -1,0 +1,190 @@
+{
+  "global_signals": [],
+  "leaves": [
+    {
+      "abstract_name": "NMOS_S_22639876_X1_Y1",
+      "bbox": [
+        0,
+        0,
+        2580,
+        7560
+      ],
+      "concrete_name": "NMOS_S_22639876_X1_Y1",
+      "terminals": [
+        {
+          "name": "D",
+          "rect": [
+            260,
+            280,
+            1460,
+            560
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            260,
+            4480,
+            1460,
+            4760
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            1580,
+            680,
+            1860,
+            6880
+          ]
+        }
+      ]
+    },
+    {
+      "abstract_name": "PMOS_4T_48942251_X2_Y1",
+      "bbox": [
+        0,
+        0,
+        3440,
+        7560
+      ],
+      "concrete_name": "PMOS_4T_48942251_X2_Y1",
+      "terminals": [
+        {
+          "name": "B",
+          "rect": [
+            1120,
+            6580,
+            2320,
+            6860
+          ]
+        },
+        {
+          "name": "D",
+          "rect": [
+            1120,
+            280,
+            2320,
+            560
+          ]
+        },
+        {
+          "name": "G",
+          "rect": [
+            1120,
+            4480,
+            2320,
+            4760
+          ]
+        },
+        {
+          "name": "S",
+          "rect": [
+            690,
+            700,
+            2750,
+            980
+          ]
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "abstract_name": "INV_B_13409687",
+      "bbox": [
+        0,
+        0,
+        6020,
+        7560
+      ],
+      "concrete_name": "INV_B_13409687_0",
+      "constraints": [],
+      "instances": [
+        {
+          "abstract_template_name": "NMOS_S_22639876_X1_Y1",
+          "concrete_template_name": "NMOS_S_22639876_X1_Y1",
+          "fa_map": [
+            {
+              "actual": "ZN",
+              "formal": "D"
+            },
+            {
+              "actual": "I",
+              "formal": "G"
+            },
+            {
+              "actual": "SN",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M0",
+          "transformation": {
+            "oX": 3440,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "abstract_template_name": "PMOS_4T_48942251_X2_Y1",
+          "concrete_template_name": "PMOS_4T_48942251_X2_Y1",
+          "fa_map": [
+            {
+              "actual": "PB",
+              "formal": "B"
+            },
+            {
+              "actual": "ZN",
+              "formal": "D"
+            },
+            {
+              "actual": "I",
+              "formal": "G"
+            },
+            {
+              "actual": "SP",
+              "formal": "S"
+            }
+          ],
+          "instance_name": "X_M1",
+          "transformation": {
+            "oX": 0,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        }
+      ],
+      "leaves": [
+        {
+          "concrete_name": "NMOS_S_22639876_X1_Y1",
+          "name": "X_M0/NMOS_S_22639876_X1_Y1",
+          "transformation": {
+            "oX": 3440,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        },
+        {
+          "concrete_name": "PMOS_4T_48942251_X2_Y1",
+          "name": "X_M1/PMOS_4T_48942251_X2_Y1",
+          "transformation": {
+            "oX": 0,
+            "oY": 0,
+            "sX": 1,
+            "sY": 1
+          }
+        }
+      ],
+      "parameters": [
+        "I",
+        "ZN",
+        "SN",
+        "SP",
+        "PB"
+      ]
+    }
+  ]
+}

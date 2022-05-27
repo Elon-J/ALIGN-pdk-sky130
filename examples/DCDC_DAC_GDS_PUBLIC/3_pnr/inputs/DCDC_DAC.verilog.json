@@ -1,0 +1,336 @@
+{
+  "modules": [
+    {
+      "name": "DCDC_DAC",
+      "parameters": [
+        "VPWR",
+        "VGND",
+        "REF",
+        "RST",
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "VOUT"
+      ],
+      "constraints": [
+        {
+          "constraint": "configure_compiler",
+          "is_digital": false,
+          "auto_constraint": true,
+          "identify_array": true,
+          "fix_source_drain": true,
+          "remove_dummy_hierarchies": true,
+          "remove_dummy_devices": true,
+          "merge_series_devices": true,
+          "merge_parallel_devices": true,
+          "propagate": true
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X_M0_M1",
+              "X_M2_M3"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X_M4_M5",
+              "X_M6_M7"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X_M8_M9",
+              "X_M10_M11"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "D0",
+          "net2": "D1",
+          "pins1": [
+            "X_M0_M1/I",
+            "D0"
+          ],
+          "pins2": [
+            "X_M2_M3/I",
+            "D1"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "D2",
+          "net2": "D3",
+          "pins1": [
+            "X_M4_M5/I",
+            "D2"
+          ],
+          "pins2": [
+            "X_M6_M7/I",
+            "D3"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "D4",
+          "net2": "D5",
+          "pins1": [
+            "X_M8_M9/I",
+            "D4"
+          ],
+          "pins2": [
+            "X_M10_M11/I",
+            "D5"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "instance_name": "X_M0_M1",
+          "fa_map": [
+            {
+              "formal": "I",
+              "actual": "D0"
+            },
+            {
+              "formal": "PB",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "SN",
+              "actual": "VGND"
+            },
+            {
+              "formal": "SP",
+              "actual": "REF"
+            },
+            {
+              "formal": "ZN",
+              "actual": "V0"
+            }
+          ],
+          "abstract_template_name": "INV_B_13409687"
+        },
+        {
+          "instance_name": "X_M10_M11",
+          "fa_map": [
+            {
+              "formal": "I",
+              "actual": "D5"
+            },
+            {
+              "formal": "PB",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "SN",
+              "actual": "VGND"
+            },
+            {
+              "formal": "SP",
+              "actual": "REF"
+            },
+            {
+              "formal": "ZN",
+              "actual": "V5"
+            }
+          ],
+          "abstract_template_name": "INV_B_13409687"
+        },
+        {
+          "instance_name": "X_M2_M3",
+          "fa_map": [
+            {
+              "formal": "I",
+              "actual": "D1"
+            },
+            {
+              "formal": "PB",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "SN",
+              "actual": "VGND"
+            },
+            {
+              "formal": "SP",
+              "actual": "REF"
+            },
+            {
+              "formal": "ZN",
+              "actual": "V1"
+            }
+          ],
+          "abstract_template_name": "INV_B_13409687"
+        },
+        {
+          "instance_name": "X_M4_M5",
+          "fa_map": [
+            {
+              "formal": "I",
+              "actual": "D2"
+            },
+            {
+              "formal": "PB",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "SN",
+              "actual": "VGND"
+            },
+            {
+              "formal": "SP",
+              "actual": "REF"
+            },
+            {
+              "formal": "ZN",
+              "actual": "V2"
+            }
+          ],
+          "abstract_template_name": "INV_B_13409687"
+        },
+        {
+          "instance_name": "X_M6_M7",
+          "fa_map": [
+            {
+              "formal": "I",
+              "actual": "D3"
+            },
+            {
+              "formal": "PB",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "SN",
+              "actual": "VGND"
+            },
+            {
+              "formal": "SP",
+              "actual": "REF"
+            },
+            {
+              "formal": "ZN",
+              "actual": "V3"
+            }
+          ],
+          "abstract_template_name": "INV_B_13409687"
+        },
+        {
+          "instance_name": "X_M8_M9",
+          "fa_map": [
+            {
+              "formal": "I",
+              "actual": "D4"
+            },
+            {
+              "formal": "PB",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "SN",
+              "actual": "VGND"
+            },
+            {
+              "formal": "SP",
+              "actual": "REF"
+            },
+            {
+              "formal": "ZN",
+              "actual": "V4"
+            }
+          ],
+          "abstract_template_name": "INV_B_13409687"
+        },
+        {
+          "instance_name": "X_M12",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "G",
+              "actual": "RST"
+            },
+            {
+              "formal": "S",
+              "actual": "VGND"
+            }
+          ],
+          "abstract_template_name": "NMOS_S_22639876"
+        }
+      ]
+    },
+    {
+      "name": "INV_B_13409687",
+      "parameters": [
+        "I",
+        "ZN",
+        "SN",
+        "SP",
+        "PB"
+      ],
+      "constraints": [],
+      "instances": [
+        {
+          "instance_name": "X_M0",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "ZN"
+            },
+            {
+              "formal": "G",
+              "actual": "I"
+            },
+            {
+              "formal": "S",
+              "actual": "SN"
+            }
+          ],
+          "abstract_template_name": "NMOS_S_22639876"
+        },
+        {
+          "instance_name": "X_M1",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "PB"
+            },
+            {
+              "formal": "D",
+              "actual": "ZN"
+            },
+            {
+              "formal": "G",
+              "actual": "I"
+            },
+            {
+              "formal": "S",
+              "actual": "SP"
+            }
+          ],
+          "abstract_template_name": "PMOS_4T_48942251"
+        }
+      ]
+    }
+  ],
+  "global_signals": []
+}

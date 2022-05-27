@@ -1,0 +1,251 @@
+MACRO DCDC_XSW_NMOS
+  ORIGIN 0 0 ;
+  FOREIGN DCDC_XSW_NMOS 0 0 ;
+  SIZE 31.82 BY 15.54 ;
+  PIN VNB
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 15.31 0.7 16.51 0.98 ;
+      LAYER M2 ;
+        RECT 15.31 8.68 16.51 8.96 ;
+      LAYER M2 ;
+        RECT 15.32 0.7 15.64 0.98 ;
+      LAYER M3 ;
+        RECT 15.34 0.84 15.62 8.82 ;
+      LAYER M2 ;
+        RECT 15.32 8.68 15.64 8.96 ;
+    END
+  END VNB
+  PIN VIN
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 14.88 6.16 16.94 6.44 ;
+      LAYER M2 ;
+        RECT 14.88 14.14 16.94 14.42 ;
+      LAYER M2 ;
+        RECT 14.89 6.16 15.21 6.44 ;
+      LAYER M3 ;
+        RECT 14.91 6.3 15.19 14.28 ;
+      LAYER M2 ;
+        RECT 14.89 14.14 15.21 14.42 ;
+    END
+  END VIN
+  PIN VOUT0
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 16.17 14.98 17.37 15.26 ;
+    END
+  END VOUT0
+  PIN VOUT1
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 15.31 14.56 16.51 14.84 ;
+    END
+  END VOUT1
+  PIN CLKB
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M3 ;
+        RECT 25.23 8.66 25.51 15.28 ;
+    END
+  END CLKB
+  PIN CLK
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M3 ;
+        RECT 6.31 8.66 6.59 15.28 ;
+    END
+  END CLK
+  OBS 
+  LAYER M3 ;
+        RECT 16.2 2.78 16.48 7.3 ;
+  LAYER M2 ;
+        RECT 16.17 10.78 17.37 11.06 ;
+  LAYER M2 ;
+        RECT 23.91 10.78 25.11 11.06 ;
+  LAYER M3 ;
+        RECT 16.2 7.14 16.48 10.92 ;
+  LAYER M2 ;
+        RECT 16.18 10.78 16.5 11.06 ;
+  LAYER M2 ;
+        RECT 17.2 10.78 24.08 11.06 ;
+  LAYER M2 ;
+        RECT 16.18 10.78 16.5 11.06 ;
+  LAYER M3 ;
+        RECT 16.2 10.76 16.48 11.08 ;
+  LAYER M2 ;
+        RECT 16.18 10.78 16.5 11.06 ;
+  LAYER M3 ;
+        RECT 16.2 10.76 16.48 11.08 ;
+  LAYER M2 ;
+        RECT 16.18 10.78 16.5 11.06 ;
+  LAYER M3 ;
+        RECT 16.2 10.76 16.48 11.08 ;
+  LAYER M2 ;
+        RECT 16.18 10.78 16.5 11.06 ;
+  LAYER M3 ;
+        RECT 16.2 10.76 16.48 11.08 ;
+  LAYER M3 ;
+        RECT 15.77 2.36 16.05 6.88 ;
+  LAYER M2 ;
+        RECT 15.31 10.36 16.51 10.64 ;
+  LAYER M2 ;
+        RECT 6.71 10.78 7.91 11.06 ;
+  LAYER M3 ;
+        RECT 15.77 6.72 16.05 10.5 ;
+  LAYER M2 ;
+        RECT 15.75 10.36 16.07 10.64 ;
+  LAYER M2 ;
+        RECT 15.32 10.36 15.64 10.64 ;
+  LAYER M3 ;
+        RECT 15.34 10.5 15.62 10.92 ;
+  LAYER M2 ;
+        RECT 7.74 10.78 15.48 11.06 ;
+  LAYER M2 ;
+        RECT 15.75 10.36 16.07 10.64 ;
+  LAYER M3 ;
+        RECT 15.77 10.34 16.05 10.66 ;
+  LAYER M2 ;
+        RECT 15.75 10.36 16.07 10.64 ;
+  LAYER M3 ;
+        RECT 15.77 10.34 16.05 10.66 ;
+  LAYER M2 ;
+        RECT 15.32 10.36 15.64 10.64 ;
+  LAYER M3 ;
+        RECT 15.34 10.34 15.62 10.66 ;
+  LAYER M2 ;
+        RECT 15.32 10.78 15.64 11.06 ;
+  LAYER M3 ;
+        RECT 15.34 10.76 15.62 11.08 ;
+  LAYER M2 ;
+        RECT 15.75 10.36 16.07 10.64 ;
+  LAYER M3 ;
+        RECT 15.77 10.34 16.05 10.66 ;
+  LAYER M2 ;
+        RECT 15.32 10.36 15.64 10.64 ;
+  LAYER M3 ;
+        RECT 15.34 10.34 15.62 10.66 ;
+  LAYER M2 ;
+        RECT 15.32 10.78 15.64 11.06 ;
+  LAYER M3 ;
+        RECT 15.34 10.76 15.62 11.08 ;
+  LAYER M2 ;
+        RECT 15.75 10.36 16.07 10.64 ;
+  LAYER M3 ;
+        RECT 15.77 10.34 16.05 10.66 ;
+  LAYER M1 ;
+        RECT 16.215 3.695 16.465 7.225 ;
+  LAYER M1 ;
+        RECT 16.215 2.435 16.465 3.445 ;
+  LAYER M1 ;
+        RECT 16.215 0.335 16.465 1.345 ;
+  LAYER M1 ;
+        RECT 16.645 3.695 16.895 7.225 ;
+  LAYER M1 ;
+        RECT 15.785 3.695 16.035 7.225 ;
+  LAYER M1 ;
+        RECT 15.355 3.695 15.605 7.225 ;
+  LAYER M1 ;
+        RECT 15.355 2.435 15.605 3.445 ;
+  LAYER M1 ;
+        RECT 15.355 0.335 15.605 1.345 ;
+  LAYER M1 ;
+        RECT 14.925 3.695 15.175 7.225 ;
+  LAYER M2 ;
+        RECT 16.17 7 17.37 7.28 ;
+  LAYER M2 ;
+        RECT 15.31 2.8 16.51 3.08 ;
+  LAYER M2 ;
+        RECT 15.31 6.58 16.51 6.86 ;
+  LAYER M2 ;
+        RECT 15.74 2.38 16.94 2.66 ;
+  LAYER M2 ;
+        RECT 15.31 0.7 16.51 0.98 ;
+  LAYER M3 ;
+        RECT 16.2 2.78 16.48 7.3 ;
+  LAYER M3 ;
+        RECT 15.77 2.36 16.05 6.88 ;
+  LAYER M2 ;
+        RECT 14.88 6.16 16.94 6.44 ;
+  LAYER M1 ;
+        RECT 16.215 11.675 16.465 15.205 ;
+  LAYER M1 ;
+        RECT 16.215 10.415 16.465 11.425 ;
+  LAYER M1 ;
+        RECT 16.215 8.315 16.465 9.325 ;
+  LAYER M1 ;
+        RECT 16.645 11.675 16.895 15.205 ;
+  LAYER M1 ;
+        RECT 15.785 11.675 16.035 15.205 ;
+  LAYER M1 ;
+        RECT 15.355 11.675 15.605 15.205 ;
+  LAYER M1 ;
+        RECT 15.355 10.415 15.605 11.425 ;
+  LAYER M1 ;
+        RECT 15.355 8.315 15.605 9.325 ;
+  LAYER M1 ;
+        RECT 14.925 11.675 15.175 15.205 ;
+  LAYER M2 ;
+        RECT 15.31 8.68 16.51 8.96 ;
+  LAYER M2 ;
+        RECT 16.17 14.98 17.37 15.26 ;
+  LAYER M2 ;
+        RECT 15.31 14.56 16.51 14.84 ;
+  LAYER M2 ;
+        RECT 16.17 10.78 17.37 11.06 ;
+  LAYER M2 ;
+        RECT 15.31 10.36 16.51 10.64 ;
+  LAYER M2 ;
+        RECT 14.88 14.14 16.94 14.42 ;
+  LAYER M1 ;
+        RECT 24.815 11.675 25.065 15.205 ;
+  LAYER M1 ;
+        RECT 24.815 10.415 25.065 11.425 ;
+  LAYER M1 ;
+        RECT 24.815 8.315 25.065 9.325 ;
+  LAYER M1 ;
+        RECT 18.795 11.675 19.045 15.205 ;
+  LAYER M1 ;
+        RECT 30.835 11.675 31.085 15.205 ;
+  LAYER M2 ;
+        RECT 24.34 14.98 25.54 15.26 ;
+  LAYER M2 ;
+        RECT 18.75 14.56 31.13 14.84 ;
+  LAYER M2 ;
+        RECT 24.34 8.68 25.54 8.96 ;
+  LAYER M2 ;
+        RECT 23.91 10.78 25.11 11.06 ;
+  LAYER M3 ;
+        RECT 25.23 8.66 25.51 15.28 ;
+  LAYER M1 ;
+        RECT 6.755 11.675 7.005 15.205 ;
+  LAYER M1 ;
+        RECT 6.755 10.415 7.005 11.425 ;
+  LAYER M1 ;
+        RECT 6.755 8.315 7.005 9.325 ;
+  LAYER M1 ;
+        RECT 12.775 11.675 13.025 15.205 ;
+  LAYER M1 ;
+        RECT 0.735 11.675 0.985 15.205 ;
+  LAYER M2 ;
+        RECT 6.28 14.98 7.48 15.26 ;
+  LAYER M2 ;
+        RECT 0.69 14.56 13.07 14.84 ;
+  LAYER M2 ;
+        RECT 6.28 8.68 7.48 8.96 ;
+  LAYER M2 ;
+        RECT 6.71 10.78 7.91 11.06 ;
+  LAYER M3 ;
+        RECT 6.31 8.66 6.59 15.28 ;
+  END 
+END DCDC_XSW_NMOS

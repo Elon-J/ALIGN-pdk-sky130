@@ -1,0 +1,124 @@
+{
+  "constraints": [
+    {
+      "style": "center",
+      "const_name": "CompactPlacement"
+    },
+    {
+      "const_name": "PortLocation",
+      "location": "BL",
+      "terminal_name": "Y0_TOP"
+    },
+    {
+      "const_name": "PortLocation",
+      "location": "BL",
+      "terminal_name": "Y0_BOT"
+    },
+    {
+      "const_name": "PortLocation",
+      "location": "BR",
+      "terminal_name": "Y1_TOP"
+    },
+    {
+      "const_name": "PortLocation",
+      "location": "BR",
+      "terminal_name": "Y1_BOT"
+    },
+    {
+      "const_name": "CritNet",
+      "net_name": "CLK1",
+      "priority": 50
+    },
+    {
+      "const_name": "CritNet",
+      "net_name": "CLK1B",
+      "priority": 50
+    },
+    {
+      "const_name": "CritNet",
+      "net_name": "CLK0",
+      "priority": 50
+    },
+    {
+      "const_name": "CritNet",
+      "net_name": "CLK0B",
+      "priority": 50
+    },
+    {
+      "const_name": "bias_Hgraph",
+      "distance": 430
+    },
+    {
+      "const_name": "bias_Vgraph",
+      "distance": 420
+    },
+    {
+      "net1": {
+        "name": "CLK1",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "CLK1"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK1",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "CLK0",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "CLK0"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK0",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "H"
+    },
+    {
+      "net1": {
+        "name": "CLK1B",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "CLK1B"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK1B",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "CLK0B",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "CLK0B"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK0B",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "H"
+    }
+  ]
+}

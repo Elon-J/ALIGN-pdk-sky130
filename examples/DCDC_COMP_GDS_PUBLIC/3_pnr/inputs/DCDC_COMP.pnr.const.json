@@ -1,0 +1,149 @@
+{
+  "constraints": [
+    {
+      "ratio_low": 0.1,
+      "ratio_high": 1.0,
+      "weight": 1,
+      "const_name": "Aspect_Ratio"
+    },
+    {
+      "style": "center",
+      "const_name": "CompactPlacement"
+    },
+    {
+      "pairs": [
+        {
+          "type": "sympair",
+          "block1": "X_M10_M9",
+          "block2": "X_M7_M8"
+        },
+        {
+          "type": "selfsym",
+          "block": "X_M1_M2"
+        },
+        {
+          "type": "selfsym",
+          "block": "X_M3_M4"
+        },
+        {
+          "type": "selfsym",
+          "block": "X_M5_M6"
+        }
+      ],
+      "const_name": "SymmBlock",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "VIN",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M1_M2",
+            "pin": "GA"
+          },
+          {
+            "type": "terminal",
+            "name": "VIN",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "VIP",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M1_M2",
+            "pin": "GB"
+          },
+          {
+            "type": "terminal",
+            "name": "VIP",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "VMN",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M3_M4",
+            "pin": "SB"
+          },
+          {
+            "type": "pin",
+            "name": "X_M1_M2",
+            "pin": "DB"
+          }
+        ]
+      },
+      "net2": {
+        "name": "VMP",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M3_M4",
+            "pin": "SA"
+          },
+          {
+            "type": "pin",
+            "name": "X_M1_M2",
+            "pin": "DA"
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "VON",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M5_M6",
+            "pin": "DB"
+          },
+          {
+            "type": "pin",
+            "name": "X_M3_M4",
+            "pin": "DB"
+          },
+          {
+            "type": "terminal",
+            "name": "VON",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "VOP",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M5_M6",
+            "pin": "DA"
+          },
+          {
+            "type": "pin",
+            "name": "X_M3_M4",
+            "pin": "DA"
+          },
+          {
+            "type": "terminal",
+            "name": "VOP",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    }
+  ]
+}

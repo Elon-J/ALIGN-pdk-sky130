@@ -1,0 +1,130 @@
+{
+  "constraints": [
+    {
+      "pairs": [
+        {
+          "type": "selfsym",
+          "block": "X0"
+        },
+        {
+          "type": "selfsym",
+          "block": "X1"
+        }
+      ],
+      "const_name": "SymmBlock",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "CLK0",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X1",
+            "pin": "CLK"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK0",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "CLK1",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X1",
+            "pin": "CLKB"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK1",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "CLK0B",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "CLKB"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK0B",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "CLK1B",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "CLK"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK1B",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "Y0",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "VOUT0"
+          },
+          {
+            "type": "pin",
+            "name": "X1",
+            "pin": "VOUT0"
+          },
+          {
+            "type": "terminal",
+            "name": "Y0",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "Y1",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "VOUT1"
+          },
+          {
+            "type": "pin",
+            "name": "X1",
+            "pin": "VOUT1"
+          },
+          {
+            "type": "terminal",
+            "name": "Y1",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    }
+  ]
+}

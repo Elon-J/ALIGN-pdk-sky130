@@ -1,0 +1,447 @@
+[
+  {
+    "name": "SKY130_FD_PR__PFET_01V8",
+    "base": "PMOS",
+    "pins": [
+      "D",
+      "G",
+      "S",
+      "B"
+    ],
+    "parameters": {
+      "W": "1",
+      "L": "1",
+      "NFIN": "1",
+      "NF": "2",
+      "M": "1",
+      "PARALLEL": "1",
+      "STACK": "1"
+    },
+    "prefix": ""
+  },
+  {
+    "name": "CCP_PMOS_58853955",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "S"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "SKY130_FD_PR__PFET_01V8",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "DB",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "SKY130_FD_PR__PFET_01V8",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "DA",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "mos",
+        "parameters": null
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "S",
+        "net2": "S",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "CMC_PMOS_23131506",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "G",
+      "S"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "SKY130_FD_PR__PFET_01V8",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "G",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "SKY130_FD_PR__PFET_01V8",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "G",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "mos",
+        "parameters": null
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "S",
+        "net2": "S",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "SKY130_FD_PR__NFET_01V8",
+    "base": "NMOS",
+    "pins": [
+      "D",
+      "G",
+      "S",
+      "B"
+    ],
+    "parameters": {
+      "W": "1",
+      "L": "1",
+      "NFIN": "1",
+      "NF": "2",
+      "M": "1",
+      "PARALLEL": "1",
+      "STACK": "1"
+    },
+    "prefix": ""
+  },
+  {
+    "name": "CCP_S_NMOS_B_5782581",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "SA",
+      "SB",
+      "B"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "SKY130_FD_PR__NFET_01V8",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "DB",
+          "S": "SA",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "SKY130_FD_PR__NFET_01V8",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "DA",
+          "S": "SB",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "mos",
+        "parameters": null
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "SA",
+        "net2": "SB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "DP_NMOS_B_93310865",
+    "base": null,
+    "pins": [
+      "DA",
+      "DB",
+      "GA",
+      "GB",
+      "S",
+      "B"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "SKY130_FD_PR__NFET_01V8",
+        "name": "M1",
+        "pins": {
+          "D": "DA",
+          "G": "GA",
+          "S": "S",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      },
+      {
+        "model": "SKY130_FD_PR__NFET_01V8",
+        "name": "M2",
+        "pins": {
+          "D": "DB",
+          "G": "GB",
+          "S": "S",
+          "B": "B"
+        },
+        "parameters": {
+          "W": "4.2E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "mos",
+        "parameters": null
+      },
+      {
+        "constraint": "symmetric_blocks",
+        "pairs": [
+          [
+            "M1",
+            "M2"
+          ]
+        ],
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "DA",
+        "net2": "DB",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      },
+      {
+        "constraint": "symmetric_nets",
+        "net1": "S",
+        "net2": "S",
+        "pins1": null,
+        "pins2": null,
+        "direction": "V"
+      }
+    ]
+  },
+  {
+    "name": "NMOS_S_93862694",
+    "base": null,
+    "pins": [
+      "D",
+      "G",
+      "S"
+    ],
+    "parameters": {},
+    "prefix": "",
+    "elements": [
+      {
+        "model": "SKY130_FD_PR__NFET_01V8",
+        "name": "M1",
+        "pins": {
+          "D": "D",
+          "G": "G",
+          "S": "S",
+          "B": "S"
+        },
+        "parameters": {
+          "W": "8.4E-07",
+          "L": "1.5E-07",
+          "NFIN": "1",
+          "NF": "2",
+          "M": "1",
+          "PARALLEL": "1",
+          "STACK": "1"
+        },
+        "abstract_name": null
+      }
+    ],
+    "generator": {
+      "name": "MOS"
+    },
+    "constraints": [
+      {
+        "constraint": "generator",
+        "name": "mos",
+        "parameters": null
+      }
+    ]
+  }
+]

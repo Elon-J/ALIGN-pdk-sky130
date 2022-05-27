@@ -1,0 +1,4 @@
+[
+	{"constraint": "CompactPlacement", "style": "center"},
+    {"constraint": "ConfigureCompiler", "is_digital": false}
+]

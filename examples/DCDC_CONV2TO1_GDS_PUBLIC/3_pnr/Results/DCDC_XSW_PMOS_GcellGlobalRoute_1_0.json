@@ -1,0 +1,205 @@
+{
+    "wires": [
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        28280,
+                        32160,
+                        28840
+                    ],
+                    "sink_name": "X_M0_M1/B"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        13160,
+                        32160,
+                        13720
+                    ],
+                    "sink_name": "X_M2_M3/B"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VPB",
+            "rect": [
+                92880,
+                15120,
+                92880,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        31540,
+                        15640,
+                        32100,
+                        24680
+                    ],
+                    "sink_name": "X_M0_M1/DA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        31480,
+                        8960,
+                        33880,
+                        9520
+                    ],
+                    "sink_name": "X_M2_M3/GA"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        46100,
+                        8960,
+                        48500,
+                        9520
+                    ],
+                    "sink_name": "X_M4/G"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "INT_SW0",
+            "rect": [
+                92880,
+                15120,
+                92880,
+                15120
+            ],
+            "width": 61920
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28900,
+                        17360,
+                        33020,
+                        17920
+                    ],
+                    "sink_name": "X_M0_M1/S"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28900,
+                        2240,
+                        33020,
+                        2800
+                    ],
+                    "sink_name": "X_M2_M3/S"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VIN",
+            "rect": [
+                92880,
+                15120,
+                92880,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        31480,
+                        560,
+                        33880,
+                        1120
+                    ],
+                    "sink_name": "X_M2_M3/DA"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VOUT0",
+            "rect": [
+                92880,
+                15120,
+                92880,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        1400,
+                        32160,
+                        1960
+                    ],
+                    "sink_name": "X_M2_M3/DB"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VOUT1",
+            "rect": [
+                92880,
+                15120,
+                92880,
+                15120
+            ],
+            "width": 30240
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        48740,
+                        520,
+                        49300,
+                        13760
+                    ],
+                    "sink_name": "X_M4/S"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "CLKB",
+            "rect": [
+                92880,
+                15120,
+                92880,
+                15120
+            ],
+            "width": 61920
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        12620,
+                        520,
+                        13180,
+                        13760
+                    ],
+                    "sink_name": "X_M5/S"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "CLK",
+            "rect": [
+                92880,
+                15120,
+                92880,
+                15120
+            ],
+            "width": 61920
+        }
+    ]
+}

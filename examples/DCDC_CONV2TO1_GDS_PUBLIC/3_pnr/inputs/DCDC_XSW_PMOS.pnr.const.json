@@ -1,0 +1,135 @@
+{
+  "constraints": [
+    {
+      "pairs": [
+        {
+          "type": "selfsym",
+          "block": "X_M0_M1"
+        },
+        {
+          "type": "selfsym",
+          "block": "X_M2_M3"
+        },
+        {
+          "type": "sympair",
+          "block1": "X_M5",
+          "block2": "X_M4"
+        }
+      ],
+      "const_name": "SymmBlock",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "CLK",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M5",
+            "pin": "S"
+          },
+          {
+            "type": "terminal",
+            "name": "CLK",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "CLKB",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M4",
+            "pin": "S"
+          },
+          {
+            "type": "terminal",
+            "name": "CLKB",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "INT_SW1",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M0_M1",
+            "pin": "DB"
+          },
+          {
+            "type": "pin",
+            "name": "X_M2_M3",
+            "pin": "GB"
+          },
+          {
+            "type": "pin",
+            "name": "X_M5",
+            "pin": "G"
+          }
+        ]
+      },
+      "net2": {
+        "name": "INT_SW0",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M0_M1",
+            "pin": "DA"
+          },
+          {
+            "type": "pin",
+            "name": "X_M2_M3",
+            "pin": "GA"
+          },
+          {
+            "type": "pin",
+            "name": "X_M4",
+            "pin": "G"
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "VOUT0",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M2_M3",
+            "pin": "DA"
+          },
+          {
+            "type": "terminal",
+            "name": "VOUT0",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "VOUT1",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X_M2_M3",
+            "pin": "DB"
+          },
+          {
+            "type": "terminal",
+            "name": "VOUT1",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    }
+  ]
+}

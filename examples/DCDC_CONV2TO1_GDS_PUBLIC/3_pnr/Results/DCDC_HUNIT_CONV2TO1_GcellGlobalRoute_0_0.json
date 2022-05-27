@@ -1,0 +1,414 @@
+{
+    "wires": [
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        12620,
+                        16480,
+                        13180,
+                        29720
+                    ],
+                    "sink_name": "X0/CLK"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "CLK1B",
+            "rect": [
+                8600,
+                8400,
+                8600,
+                8400
+            ],
+            "width": 17200
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        48740,
+                        16480,
+                        49300,
+                        29720
+                    ],
+                    "sink_name": "X0/CLKB"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "CLK0B",
+            "rect": [
+                43000,
+                8400,
+                43000,
+                8400
+            ],
+            "width": 17200
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28900,
+                        12320,
+                        33020,
+                        12880
+                    ],
+                    "sink_name": "X0/VIN"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28900,
+                        27440,
+                        33020,
+                        28000
+                    ],
+                    "sink_name": "X0/VIN"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28920,
+                        12320,
+                        29560,
+                        12880
+                    ],
+                    "sink_name": "X0/VIN"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        28960,
+                        12600,
+                        29520,
+                        27720
+                    ],
+                    "sink_name": "X0/VIN"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28920,
+                        27440,
+                        29560,
+                        28000
+                    ],
+                    "sink_name": "X0/VIN"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VHIGH",
+            "rect": [
+                25800,
+                8400,
+                25800,
+                8400
+            ],
+            "width": 16800
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        31480,
+                        29120,
+                        33880,
+                        29680
+                    ],
+                    "sink_name": "X0/VOUT0"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        31480,
+                        30800,
+                        33880,
+                        31360
+                    ],
+                    "sink_name": "X1/VOUT0"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "Y0",
+            "rect": [
+                25800,
+                25200,
+                25800,
+                25200
+            ],
+            "width": 16800
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        28280,
+                        32160,
+                        28840
+                    ],
+                    "sink_name": "X0/VOUT1"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        31640,
+                        32160,
+                        32200
+                    ],
+                    "sink_name": "X1/VOUT1"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "Y1",
+            "rect": [
+                25800,
+                25200,
+                25800,
+                25200
+            ],
+            "width": 16800
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        1400,
+                        32160,
+                        1960
+                    ],
+                    "sink_name": "X0/VPB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        16520,
+                        32160,
+                        17080
+                    ],
+                    "sink_name": "X0/VPB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29780,
+                        1400,
+                        30420,
+                        1960
+                    ],
+                    "sink_name": "X0/VPB"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        29820,
+                        1680,
+                        30380,
+                        16800
+                    ],
+                    "sink_name": "X0/VPB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29780,
+                        16520,
+                        30420,
+                        17080
+                    ],
+                    "sink_name": "X0/VPB"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VPWR",
+            "rect": [
+                25800,
+                8400,
+                25800,
+                8400
+            ],
+            "width": 16800
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        12620,
+                        30760,
+                        13180,
+                        44000
+                    ],
+                    "sink_name": "X1/CLK"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "CLK0",
+            "rect": [
+                8600,
+                25200,
+                8600,
+                25200
+            ],
+            "width": 17200
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M3",
+                    "rect": [
+                        48740,
+                        30760,
+                        49300,
+                        44000
+                    ],
+                    "sink_name": "X1/CLKB"
+                }
+            ],
+            "layer": "M3",
+            "net_name": "CLK1",
+            "rect": [
+                43000,
+                25200,
+                43000,
+                25200
+            ],
+            "width": 17200
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28900,
+                        47600,
+                        33020,
+                        48160
+                    ],
+                    "sink_name": "X1/VIN"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28900,
+                        32480,
+                        33020,
+                        33040
+                    ],
+                    "sink_name": "X1/VIN"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28920,
+                        47600,
+                        29560,
+                        48160
+                    ],
+                    "sink_name": "X1/VIN"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        28960,
+                        32760,
+                        29520,
+                        47880
+                    ],
+                    "sink_name": "X1/VIN"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        28920,
+                        32480,
+                        29560,
+                        33040
+                    ],
+                    "sink_name": "X1/VIN"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VLOW",
+            "rect": [
+                25800,
+                25200,
+                25800,
+                25200
+            ],
+            "width": 16800
+        },
+        {
+            "connected_pins": [
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        58520,
+                        32160,
+                        59080
+                    ],
+                    "sink_name": "X1/VNB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29760,
+                        43400,
+                        32160,
+                        43960
+                    ],
+                    "sink_name": "X1/VNB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29780,
+                        58520,
+                        30420,
+                        59080
+                    ],
+                    "sink_name": "X1/VNB"
+                },
+                {
+                    "layer": "M3",
+                    "rect": [
+                        29820,
+                        43680,
+                        30380,
+                        58800
+                    ],
+                    "sink_name": "X1/VNB"
+                },
+                {
+                    "layer": "M2",
+                    "rect": [
+                        29780,
+                        43400,
+                        30420,
+                        43960
+                    ],
+                    "sink_name": "X1/VNB"
+                }
+            ],
+            "layer": "M2",
+            "net_name": "VGND",
+            "rect": [
+                25800,
+                42000,
+                25800,
+                42000
+            ],
+            "width": 16800
+        }
+    ]
+}

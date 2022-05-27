@@ -1,0 +1,66 @@
+Node INV_B_13409687_0
+  Net ZN
+    Pin X_M0.D Find a path 1
+    Pin X_M1.D Find a path 1
+  Net I
+    Pin X_M0.G Find a path 1
+    Pin X_M1.G Find a path 1
+Node INV_B_13409687_0
+  Net ZN
+    Pin X_M0.D Find a path 1
+    Pin X_M1.D Find a path 1
+  Net I
+    Pin X_M0.G Find a path 1
+    Pin X_M1.G Find a path 1
+Node INV_B_13409687_0
+  Net ZN
+    Pin X_M0.D Find a path 1
+    Pin X_M1.D Find a path 1
+  Net I
+    Pin X_M0.G Find a path 1
+    Pin X_M1.G Find a path 1
+Node INV_B_13409687_0
+  Net ZN
+    Pin X_M0.D Find a path 1
+    Pin X_M1.D Find a path 1
+  Net I
+    Pin X_M0.G Find a path 1
+    Pin X_M1.G Find a path 1
+Node INV_B_13409687_0
+  Net ZN
+    Pin X_M0.D Find a path 1
+    Pin X_M1.D Find a path 1
+  Net I
+    Pin X_M0.G Find a path 1
+    Pin X_M1.G Find a path 1
+Node INV_B_13409687_0
+  Net ZN
+    Pin X_M0.D Find a path 1
+    Pin X_M1.D Find a path 1
+  Net I
+    Pin X_M0.G Find a path 1
+    Pin X_M1.G Find a path 1
+Node DCDC_DAC_0
+  Net VPWR
+    Pin X_M0_M1.PB Find a path 1
+    Pin X_M10_M11.PB Find a path 1
+    Pin X_M2_M3.PB Find a path 1
+    Pin X_M4_M5.PB Find a path 1
+    Pin X_M6_M7.PB Find a path 1
+    Pin X_M8_M9.PB Find a path 1
+  Net VGND
+    Pin X_M0_M1.SN Find a path 1
+    Pin X_M10_M11.SN Find a path 1
+    Pin X_M2_M3.SN Find a path 1
+    Pin X_M4_M5.SN Find a path 1
+    Pin X_M6_M7.SN Find a path 1
+    Pin X_M8_M9.SN Find a path 1
+    Pin X_M12.S Find a path 1
+  Net REF
+    Pin X_M0_M1.SP Find a path 1
+    Pin X_M10_M11.SP Find a path 1
+    Pin X_M2_M3.SP Find a path 1
+    Pin X_M4_M5.SP Find a path 1
+    Pin X_M6_M7.SP Find a path 1
+    Pin X_M8_M9.SP Find a path 1
+Node 

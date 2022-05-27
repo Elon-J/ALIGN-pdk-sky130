@@ -1,0 +1,823 @@
+{
+  "modules": [
+    {
+      "name": "DCDC_XSW_PMOS",
+      "parameters": [
+        "VPB",
+        "CLK",
+        "CLKB",
+        "VIN",
+        "VOUT0",
+        "VOUT1"
+      ],
+      "constraints": [
+        {
+          "constraint": "configure_compiler",
+          "is_digital": false,
+          "auto_constraint": true,
+          "identify_array": true,
+          "fix_source_drain": true,
+          "remove_dummy_hierarchies": true,
+          "remove_dummy_devices": true,
+          "merge_series_devices": true,
+          "merge_parallel_devices": true,
+          "propagate": true
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X_M0_M1"
+            ],
+            [
+              "X_M2_M3"
+            ],
+            [
+              "X_M5",
+              "X_M4"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "CLK",
+          "net2": "CLKB",
+          "pins1": [
+            "X_M5/S",
+            "CLK"
+          ],
+          "pins2": [
+            "X_M4/S",
+            "CLKB"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "INT_SW1",
+          "net2": "INT_SW0",
+          "pins1": [
+            "X_M0_M1/DB",
+            "X_M2_M3/GB",
+            "X_M5/G"
+          ],
+          "pins2": [
+            "X_M0_M1/DA",
+            "X_M2_M3/GA",
+            "X_M4/G"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "VOUT0",
+          "net2": "VOUT1",
+          "pins1": [
+            "X_M2_M3/DA",
+            "VOUT0"
+          ],
+          "pins2": [
+            "X_M2_M3/DB",
+            "VOUT1"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "CCP_PMOS_B_53083828",
+          "instance_name": "X_M0_M1",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VPB"
+            },
+            {
+              "formal": "DA",
+              "actual": "INT_SW0"
+            },
+            {
+              "formal": "DB",
+              "actual": "INT_SW1"
+            },
+            {
+              "formal": "S",
+              "actual": "VIN"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DP_PMOS_B_25364157",
+          "instance_name": "X_M2_M3",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VPB"
+            },
+            {
+              "formal": "DA",
+              "actual": "VOUT0"
+            },
+            {
+              "formal": "DB",
+              "actual": "VOUT1"
+            },
+            {
+              "formal": "GA",
+              "actual": "INT_SW0"
+            },
+            {
+              "formal": "GB",
+              "actual": "INT_SW1"
+            },
+            {
+              "formal": "S",
+              "actual": "VIN"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCAP_PMOS_57222488",
+          "instance_name": "X_M4",
+          "fa_map": [
+            {
+              "formal": "G",
+              "actual": "INT_SW0"
+            },
+            {
+              "formal": "S",
+              "actual": "CLKB"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCAP_PMOS_57222488",
+          "instance_name": "X_M5",
+          "fa_map": [
+            {
+              "formal": "G",
+              "actual": "INT_SW1"
+            },
+            {
+              "formal": "S",
+              "actual": "CLK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DCDC_XSW_NMOS",
+      "parameters": [
+        "VNB",
+        "CLK",
+        "CLKB",
+        "VIN",
+        "VOUT0",
+        "VOUT1"
+      ],
+      "constraints": [
+        {
+          "constraint": "configure_compiler",
+          "is_digital": false,
+          "auto_constraint": true,
+          "identify_array": true,
+          "fix_source_drain": true,
+          "remove_dummy_hierarchies": true,
+          "remove_dummy_devices": true,
+          "merge_series_devices": true,
+          "merge_parallel_devices": true,
+          "propagate": true
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X_M0_M1"
+            ],
+            [
+              "X_M2_M3"
+            ],
+            [
+              "X_M5",
+              "X_M4"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "CLK",
+          "net2": "CLKB",
+          "pins1": [
+            "X_M5/S",
+            "CLK"
+          ],
+          "pins2": [
+            "X_M4/S",
+            "CLKB"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "INT_SW1",
+          "net2": "INT_SW0",
+          "pins1": [
+            "X_M0_M1/DB",
+            "X_M2_M3/GB",
+            "X_M5/G"
+          ],
+          "pins2": [
+            "X_M0_M1/DA",
+            "X_M2_M3/GA",
+            "X_M4/G"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "VOUT0",
+          "net2": "VOUT1",
+          "pins1": [
+            "X_M2_M3/DA",
+            "VOUT0"
+          ],
+          "pins2": [
+            "X_M2_M3/DB",
+            "VOUT1"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "CCP_NMOS_B_26073270",
+          "instance_name": "X_M0_M1",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VNB"
+            },
+            {
+              "formal": "DA",
+              "actual": "INT_SW0"
+            },
+            {
+              "formal": "DB",
+              "actual": "INT_SW1"
+            },
+            {
+              "formal": "S",
+              "actual": "VIN"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DP_NMOS_B_83449181",
+          "instance_name": "X_M2_M3",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VNB"
+            },
+            {
+              "formal": "DA",
+              "actual": "VOUT0"
+            },
+            {
+              "formal": "DB",
+              "actual": "VOUT1"
+            },
+            {
+              "formal": "GA",
+              "actual": "INT_SW0"
+            },
+            {
+              "formal": "GB",
+              "actual": "INT_SW1"
+            },
+            {
+              "formal": "S",
+              "actual": "VIN"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCAP_PMOS_57222488",
+          "instance_name": "X_M4",
+          "fa_map": [
+            {
+              "formal": "G",
+              "actual": "INT_SW0"
+            },
+            {
+              "formal": "S",
+              "actual": "CLKB"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCAP_PMOS_57222488",
+          "instance_name": "X_M5",
+          "fa_map": [
+            {
+              "formal": "G",
+              "actual": "INT_SW1"
+            },
+            {
+              "formal": "S",
+              "actual": "CLK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DCDC_HUNIT_CONV2TO1",
+      "parameters": [
+        "VGND",
+        "VPWR",
+        "CLK0",
+        "CLK0B",
+        "CLK1",
+        "CLK1B",
+        "Y0",
+        "Y1",
+        "VHIGH",
+        "VLOW"
+      ],
+      "constraints": [
+        {
+          "constraint": "configure_compiler",
+          "is_digital": false,
+          "auto_constraint": true,
+          "identify_array": true,
+          "fix_source_drain": true,
+          "remove_dummy_hierarchies": true,
+          "remove_dummy_devices": true,
+          "merge_series_devices": true,
+          "merge_parallel_devices": true,
+          "propagate": true
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X0"
+            ],
+            [
+              "X1"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "CLK0",
+          "net2": "CLK1",
+          "pins1": [
+            "X1/CLK",
+            "CLK0"
+          ],
+          "pins2": [
+            "X1/CLKB",
+            "CLK1"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "CLK0B",
+          "net2": "CLK1B",
+          "pins1": [
+            "X0/CLKB",
+            "CLK0B"
+          ],
+          "pins2": [
+            "X0/CLK",
+            "CLK1B"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "Y0",
+          "net2": "Y1",
+          "pins1": [
+            "X0/VOUT0",
+            "X1/VOUT0",
+            "Y0"
+          ],
+          "pins2": [
+            "X0/VOUT1",
+            "X1/VOUT1",
+            "Y1"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "DCDC_XSW_PMOS",
+          "instance_name": "X0",
+          "fa_map": [
+            {
+              "formal": "CLK",
+              "actual": "CLK1B"
+            },
+            {
+              "formal": "CLKB",
+              "actual": "CLK0B"
+            },
+            {
+              "formal": "VIN",
+              "actual": "VHIGH"
+            },
+            {
+              "formal": "VOUT0",
+              "actual": "Y0"
+            },
+            {
+              "formal": "VOUT1",
+              "actual": "Y1"
+            },
+            {
+              "formal": "VPB",
+              "actual": "VPWR"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCDC_XSW_NMOS",
+          "instance_name": "X1",
+          "fa_map": [
+            {
+              "formal": "CLK",
+              "actual": "CLK0"
+            },
+            {
+              "formal": "CLKB",
+              "actual": "CLK1"
+            },
+            {
+              "formal": "VIN",
+              "actual": "VLOW"
+            },
+            {
+              "formal": "VNB",
+              "actual": "VGND"
+            },
+            {
+              "formal": "VOUT0",
+              "actual": "Y0"
+            },
+            {
+              "formal": "VOUT1",
+              "actual": "Y1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DCDC_CONV2TO1_1",
+      "parameters": [
+        "VGND",
+        "VPWR",
+        "CLK0",
+        "CLK0B",
+        "CLK1",
+        "CLK1B",
+        "Y0_TOP",
+        "Y1_TOP",
+        "Y0_BOT",
+        "Y1_BOT",
+        "VHIGH",
+        "VMID",
+        "VLOW"
+      ],
+      "constraints": [
+        {
+          "constraint": "configure_compiler",
+          "is_digital": false,
+          "auto_constraint": true,
+          "identify_array": true,
+          "fix_source_drain": true,
+          "remove_dummy_hierarchies": true,
+          "remove_dummy_devices": true,
+          "merge_series_devices": true,
+          "merge_parallel_devices": true,
+          "propagate": true
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X0",
+              "X1"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "VHIGH",
+          "net2": "VLOW",
+          "pins1": [
+            "X0/VHIGH",
+            "VHIGH"
+          ],
+          "pins2": [
+            "X1/VLOW",
+            "VLOW"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "Y0_BOT",
+          "net2": "Y0_TOP",
+          "pins1": [
+            "X1/Y0",
+            "Y0_BOT"
+          ],
+          "pins2": [
+            "X0/Y0",
+            "Y0_TOP"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "Y1_BOT",
+          "net2": "Y1_TOP",
+          "pins1": [
+            "X1/Y1",
+            "Y1_BOT"
+          ],
+          "pins2": [
+            "X0/Y1",
+            "Y1_TOP"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "DCDC_HUNIT_CONV2TO1",
+          "instance_name": "X0",
+          "fa_map": [
+            {
+              "formal": "CLK0",
+              "actual": "CLK0"
+            },
+            {
+              "formal": "CLK0B",
+              "actual": "CLK0B"
+            },
+            {
+              "formal": "CLK1",
+              "actual": "CLK1"
+            },
+            {
+              "formal": "CLK1B",
+              "actual": "CLK1B"
+            },
+            {
+              "formal": "VGND",
+              "actual": "VGND"
+            },
+            {
+              "formal": "VHIGH",
+              "actual": "VHIGH"
+            },
+            {
+              "formal": "VLOW",
+              "actual": "VMID"
+            },
+            {
+              "formal": "VPWR",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "Y0",
+              "actual": "Y0_TOP"
+            },
+            {
+              "formal": "Y1",
+              "actual": "Y1_TOP"
+            }
+          ]
+        },
+        {
+          "abstract_template_name": "DCDC_HUNIT_CONV2TO1",
+          "instance_name": "X1",
+          "fa_map": [
+            {
+              "formal": "CLK0",
+              "actual": "CLK0"
+            },
+            {
+              "formal": "CLK0B",
+              "actual": "CLK0B"
+            },
+            {
+              "formal": "CLK1",
+              "actual": "CLK1"
+            },
+            {
+              "formal": "CLK1B",
+              "actual": "CLK1B"
+            },
+            {
+              "formal": "VGND",
+              "actual": "VGND"
+            },
+            {
+              "formal": "VHIGH",
+              "actual": "VMID"
+            },
+            {
+              "formal": "VLOW",
+              "actual": "VLOW"
+            },
+            {
+              "formal": "VPWR",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "Y0",
+              "actual": "Y0_BOT"
+            },
+            {
+              "formal": "Y1",
+              "actual": "Y1_BOT"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DCDC_CONV2TO1",
+      "parameters": [
+        "VGND",
+        "VPWR",
+        "CLK0",
+        "CLK0B",
+        "CLK1",
+        "CLK1B",
+        "Y0_TOP",
+        "Y1_TOP",
+        "Y0_BOT",
+        "Y1_BOT",
+        "VHIGH",
+        "VMID",
+        "VLOW"
+      ],
+      "constraints": [
+        {
+          "constraint": "compact_placement",
+          "style": "center"
+        },
+        {
+          "constraint": "configure_compiler",
+          "is_digital": false,
+          "auto_constraint": true,
+          "identify_array": true,
+          "fix_source_drain": true,
+          "remove_dummy_hierarchies": true,
+          "remove_dummy_devices": true,
+          "merge_series_devices": true,
+          "merge_parallel_devices": true,
+          "propagate": true
+        },
+        {
+          "constraint": "port_location",
+          "ports": [
+            "Y0_TOP",
+            "Y0_BOT"
+          ],
+          "location": "BL"
+        },
+        {
+          "constraint": "port_location",
+          "ports": [
+            "Y1_TOP",
+            "Y1_BOT"
+          ],
+          "location": "BR"
+        },
+        {
+          "constraint": "net_const",
+          "nets": [
+            "CLK1",
+            "CLK1B",
+            "CLK0",
+            "CLK0B"
+          ],
+          "shield": null,
+          "criticality": 50
+        },
+        {
+          "constraint": "horizontal_distance",
+          "abs_distance": 430
+        },
+        {
+          "constraint": "vertical_distance",
+          "abs_distance": 420
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "CLK1",
+          "net2": "CLK0",
+          "pins1": [
+            "X0/CLK1",
+            "CLK1"
+          ],
+          "pins2": [
+            "X0/CLK0",
+            "CLK0"
+          ],
+          "direction": "H"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "CLK1B",
+          "net2": "CLK0B",
+          "pins1": [
+            "X0/CLK1B",
+            "CLK1B"
+          ],
+          "pins2": [
+            "X0/CLK0B",
+            "CLK0B"
+          ],
+          "direction": "H"
+        }
+      ],
+      "instances": [
+        {
+          "abstract_template_name": "DCDC_CONV2TO1_1",
+          "instance_name": "X0",
+          "fa_map": [
+            {
+              "formal": "CLK0",
+              "actual": "CLK0"
+            },
+            {
+              "formal": "CLK0B",
+              "actual": "CLK0B"
+            },
+            {
+              "formal": "CLK1",
+              "actual": "CLK1"
+            },
+            {
+              "formal": "CLK1B",
+              "actual": "CLK1B"
+            },
+            {
+              "formal": "VGND",
+              "actual": "VGND"
+            },
+            {
+              "formal": "VHIGH",
+              "actual": "VHIGH"
+            },
+            {
+              "formal": "VLOW",
+              "actual": "VLOW"
+            },
+            {
+              "formal": "VMID",
+              "actual": "VMID"
+            },
+            {
+              "formal": "VPWR",
+              "actual": "VPWR"
+            },
+            {
+              "formal": "Y0_BOT",
+              "actual": "Y0_BOT"
+            },
+            {
+              "formal": "Y0_TOP",
+              "actual": "Y0_TOP"
+            },
+            {
+              "formal": "Y1_BOT",
+              "actual": "Y1_BOT"
+            },
+            {
+              "formal": "Y1_TOP",
+              "actual": "Y1_TOP"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "global_signals": []
+}

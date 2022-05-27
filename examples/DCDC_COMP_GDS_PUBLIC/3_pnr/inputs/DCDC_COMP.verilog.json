@@ -1,0 +1,231 @@
+{
+  "modules": [
+    {
+      "name": "DCDC_COMP",
+      "parameters": [
+        "VPWR",
+        "VGND",
+        "VIN",
+        "VIP",
+        "VON",
+        "VOP",
+        "CLK"
+      ],
+      "constraints": [
+        {
+          "constraint": "aspect_ratio",
+          "subcircuit": "DCDC_COMP",
+          "ratio_low": 0.1,
+          "ratio_high": 1.0,
+          "weight": 1
+        },
+        {
+          "constraint": "compact_placement",
+          "style": "center"
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X_M10_M9",
+              "X_M7_M8"
+            ],
+            [
+              "X_M1_M2"
+            ],
+            [
+              "X_M3_M4"
+            ],
+            [
+              "X_M5_M6"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "VIN",
+          "net2": "VIP",
+          "pins1": [
+            "X_M1_M2/GA",
+            "VIN"
+          ],
+          "pins2": [
+            "X_M1_M2/GB",
+            "VIP"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "VMN",
+          "net2": "VMP",
+          "pins1": [
+            "X_M3_M4/SB",
+            "X_M1_M2/DB"
+          ],
+          "pins2": [
+            "X_M3_M4/SA",
+            "X_M1_M2/DA"
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_nets",
+          "net1": "VON",
+          "net2": "VOP",
+          "pins1": [
+            "X_M5_M6/DB",
+            "X_M3_M4/DB",
+            "VON"
+          ],
+          "pins2": [
+            "X_M5_M6/DA",
+            "X_M3_M4/DA",
+            "VOP"
+          ],
+          "direction": "V"
+        }
+      ],
+      "instances": [
+        {
+          "instance_name": "X_M5_M6",
+          "fa_map": [
+            {
+              "formal": "DA",
+              "actual": "VOP"
+            },
+            {
+              "formal": "DB",
+              "actual": "VON"
+            },
+            {
+              "formal": "S",
+              "actual": "VPWR"
+            }
+          ],
+          "abstract_template_name": "CCP_PMOS_58853955"
+        },
+        {
+          "instance_name": "X_M10_M9",
+          "fa_map": [
+            {
+              "formal": "DA",
+              "actual": "VMN"
+            },
+            {
+              "formal": "DB",
+              "actual": "VMP"
+            },
+            {
+              "formal": "G",
+              "actual": "CLK"
+            },
+            {
+              "formal": "S",
+              "actual": "VPWR"
+            }
+          ],
+          "abstract_template_name": "CMC_PMOS_23131506"
+        },
+        {
+          "instance_name": "X_M7_M8",
+          "fa_map": [
+            {
+              "formal": "DA",
+              "actual": "VOP"
+            },
+            {
+              "formal": "DB",
+              "actual": "VON"
+            },
+            {
+              "formal": "G",
+              "actual": "CLK"
+            },
+            {
+              "formal": "S",
+              "actual": "VPWR"
+            }
+          ],
+          "abstract_template_name": "CMC_PMOS_23131506"
+        },
+        {
+          "instance_name": "X_M3_M4",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VGND"
+            },
+            {
+              "formal": "DA",
+              "actual": "VOP"
+            },
+            {
+              "formal": "DB",
+              "actual": "VON"
+            },
+            {
+              "formal": "SA",
+              "actual": "VMP"
+            },
+            {
+              "formal": "SB",
+              "actual": "VMN"
+            }
+          ],
+          "abstract_template_name": "CCP_S_NMOS_B_5782581"
+        },
+        {
+          "instance_name": "X_M1_M2",
+          "fa_map": [
+            {
+              "formal": "B",
+              "actual": "VGND"
+            },
+            {
+              "formal": "DA",
+              "actual": "VMP"
+            },
+            {
+              "formal": "DB",
+              "actual": "VMN"
+            },
+            {
+              "formal": "GA",
+              "actual": "VIN"
+            },
+            {
+              "formal": "GB",
+              "actual": "VIP"
+            },
+            {
+              "formal": "S",
+              "actual": "VCM"
+            }
+          ],
+          "abstract_template_name": "DP_NMOS_B_93310865"
+        },
+        {
+          "instance_name": "X_M0",
+          "fa_map": [
+            {
+              "formal": "D",
+              "actual": "VCM"
+            },
+            {
+              "formal": "G",
+              "actual": "CLK"
+            },
+            {
+              "formal": "S",
+              "actual": "VGND"
+            }
+          ],
+          "abstract_template_name": "NMOS_S_93862694"
+        }
+      ]
+    }
+  ],
+  "global_signals": []
+}

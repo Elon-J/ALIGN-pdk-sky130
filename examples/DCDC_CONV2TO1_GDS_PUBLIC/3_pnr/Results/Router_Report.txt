@@ -1,0 +1,98 @@
+Node DCDC_XSW_PMOS_0
+  Net VPB
+    Pin X_M0_M1.B Find a path 1
+    Pin X_M2_M3.B Find a path 1
+  Net INT_SW0
+    Pin X_M0_M1.DA Find a path 1
+    Pin X_M2_M3.GA Find a path 1
+    Pin X_M4.G Find a path 1
+  Net INT_SW1
+    Pin X_M0_M1.DB Find a path 1
+    Pin X_M2_M3.GB Find a path 1
+    Pin X_M5.G Find a path 1
+  Net VIN
+    Pin X_M0_M1.S Find a path 1
+    Pin X_M2_M3.S Find a path 1
+Node DCDC_XSW_NMOS_0
+  Net VNB
+    Pin X_M0_M1.B Find a path 1
+    Pin X_M2_M3.B Find a path 1
+  Net INT_SW0
+    Pin X_M0_M1.DA Find a path 1
+    Pin X_M2_M3.GA Find a path 1
+    Pin X_M4.G Find a path 1
+  Net INT_SW1
+    Pin X_M0_M1.DB Find a path 1
+    Pin X_M2_M3.GB Find a path 1
+    Pin X_M5.G Find a path 1
+  Net VIN
+    Pin X_M0_M1.S Find a path 1
+    Pin X_M2_M3.S Find a path 1
+Node DCDC_HUNIT_CONV2TO1_0
+  Net Y0
+    Pin X0.VOUT0 Find a path 1
+    Pin X1.VOUT0 Find a path 1
+  Net Y1
+    Pin X0.VOUT1 Find a path 1
+    Pin X1.VOUT1 Find a path 1
+Node DCDC_XSW_PMOS_1
+  Net VPB
+    Pin X_M0_M1.B Find a path 1
+    Pin X_M2_M3.B Find a path 1
+  Net INT_SW0
+    Pin X_M0_M1.DA Find a path 1
+    Pin X_M2_M3.GA Find a path 1
+    Pin X_M4.G Find a path 1
+  Net INT_SW1
+    Pin X_M0_M1.DB Find a path 1
+    Pin X_M2_M3.GB Find a path 1
+    Pin X_M5.G Find a path 1
+  Net VIN
+    Pin X_M0_M1.S Find a path 1
+    Pin X_M2_M3.S Find a path 1
+Node DCDC_XSW_NMOS_1
+  Net VNB
+    Pin X_M0_M1.B Find a path 1
+    Pin X_M2_M3.B Find a path 1
+  Net INT_SW0
+    Pin X_M0_M1.DA Find a path 1
+    Pin X_M2_M3.GA Find a path 1
+    Pin X_M4.G Find a path 1
+  Net INT_SW1
+    Pin X_M0_M1.DB Find a path 1
+    Pin X_M2_M3.GB Find a path 1
+    Pin X_M5.G Find a path 1
+  Net VIN
+    Pin X_M0_M1.S Find a path 1
+    Pin X_M2_M3.S Find a path 1
+Node DCDC_HUNIT_CONV2TO1_1
+  Net Y0
+    Pin X0.VOUT0 Find a path 1
+    Pin X1.VOUT0 Find a path 1
+  Net Y1
+    Pin X0.VOUT1 Find a path 1
+    Pin X1.VOUT1 Find a path 1
+Node DCDC_CONV2TO1_1_0
+  Net CLK0
+    Pin X0.CLK0 Find a path 1
+    Pin X1.CLK0 Find a path 1
+  Net CLK0B
+    Pin X0.CLK0B Find a path 1
+    Pin X1.CLK0B Find a path 1
+  Net CLK1
+    Pin X0.CLK1 Find a path 1
+    Pin X1.CLK1 Find a path 1
+  Net CLK1B
+    Pin X0.CLK1B Find a path 1
+    Pin X1.CLK1B Find a path 1
+  Net VGND
+    Pin X0.VGND Find a path 1
+    Pin X1.VGND Find a path 1
+  Net VMID
+    Pin X0.VLOW Find a path 1
+    Pin X1.VHIGH Find a path 1
+  Net VPWR
+    Pin X0.VPWR Find a path 1
+    Pin X1.VPWR Find a path 1
+Node DCDC_CONV2TO1_0
+Node 

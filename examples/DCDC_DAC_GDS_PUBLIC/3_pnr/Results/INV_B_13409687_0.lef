@@ -1,0 +1,101 @@
+MACRO INV_B_13409687
+  ORIGIN 0 0 ;
+  FOREIGN INV_B_13409687 0 0 ;
+  SIZE 6.02 BY 7.56 ;
+  PIN ZN
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 3.7 0.28 4.9 0.56 ;
+      LAYER M2 ;
+        RECT 1.12 0.28 2.32 0.56 ;
+      LAYER M2 ;
+        RECT 2.15 0.28 3.87 0.56 ;
+    END
+  END ZN
+  PIN I
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 3.7 4.48 4.9 4.76 ;
+      LAYER M2 ;
+        RECT 1.12 4.48 2.32 4.76 ;
+      LAYER M2 ;
+        RECT 2.15 4.48 3.87 4.76 ;
+    END
+  END I
+  PIN SN
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M3 ;
+        RECT 5.02 0.68 5.3 6.88 ;
+    END
+  END SN
+  PIN PB
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 1.12 6.58 2.32 6.86 ;
+    END
+  END PB
+  PIN SP
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT 
+      LAYER M2 ;
+        RECT 0.69 0.7 2.75 0.98 ;
+    END
+  END SP
+  OBS 
+  LAYER M1 ;
+        RECT 4.605 0.335 4.855 3.865 ;
+  LAYER M1 ;
+        RECT 4.605 4.115 4.855 5.125 ;
+  LAYER M1 ;
+        RECT 4.605 6.215 4.855 7.225 ;
+  LAYER M1 ;
+        RECT 4.175 0.335 4.425 3.865 ;
+  LAYER M1 ;
+        RECT 5.035 0.335 5.285 3.865 ;
+  LAYER M2 ;
+        RECT 4.13 0.7 5.33 0.98 ;
+  LAYER M2 ;
+        RECT 4.13 6.58 5.33 6.86 ;
+  LAYER M2 ;
+        RECT 3.7 0.28 4.9 0.56 ;
+  LAYER M2 ;
+        RECT 3.7 4.48 4.9 4.76 ;
+  LAYER M3 ;
+        RECT 5.02 0.68 5.3 6.88 ;
+  LAYER M1 ;
+        RECT 1.165 0.335 1.415 3.865 ;
+  LAYER M1 ;
+        RECT 1.165 4.115 1.415 5.125 ;
+  LAYER M1 ;
+        RECT 1.165 6.215 1.415 7.225 ;
+  LAYER M1 ;
+        RECT 0.735 0.335 0.985 3.865 ;
+  LAYER M1 ;
+        RECT 1.595 0.335 1.845 3.865 ;
+  LAYER M1 ;
+        RECT 2.025 0.335 2.275 3.865 ;
+  LAYER M1 ;
+        RECT 2.025 4.115 2.275 5.125 ;
+  LAYER M1 ;
+        RECT 2.025 6.215 2.275 7.225 ;
+  LAYER M1 ;
+        RECT 2.455 0.335 2.705 3.865 ;
+  LAYER M2 ;
+        RECT 1.12 6.58 2.32 6.86 ;
+  LAYER M2 ;
+        RECT 1.12 0.28 2.32 0.56 ;
+  LAYER M2 ;
+        RECT 1.12 4.48 2.32 4.76 ;
+  LAYER M2 ;
+        RECT 0.69 0.7 2.75 0.98 ;
+  END 
+END INV_B_13409687

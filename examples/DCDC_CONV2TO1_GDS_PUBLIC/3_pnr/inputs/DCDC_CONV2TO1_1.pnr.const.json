@@ -1,0 +1,117 @@
+{
+  "constraints": [
+    {
+      "pairs": [
+        {
+          "type": "sympair",
+          "block1": "X0",
+          "block2": "X1"
+        }
+      ],
+      "const_name": "SymmBlock",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "VHIGH",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "VHIGH"
+          },
+          {
+            "type": "terminal",
+            "name": "VHIGH",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "VLOW",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X1",
+            "pin": "VLOW"
+          },
+          {
+            "type": "terminal",
+            "name": "VLOW",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "Y0_BOT",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X1",
+            "pin": "Y0"
+          },
+          {
+            "type": "terminal",
+            "name": "Y0_BOT",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "Y0_TOP",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "Y0"
+          },
+          {
+            "type": "terminal",
+            "name": "Y0_TOP",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    },
+    {
+      "net1": {
+        "name": "Y1_BOT",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X1",
+            "pin": "Y1"
+          },
+          {
+            "type": "terminal",
+            "name": "Y1_BOT",
+            "pin": null
+          }
+        ]
+      },
+      "net2": {
+        "name": "Y1_TOP",
+        "blocks": [
+          {
+            "type": "pin",
+            "name": "X0",
+            "pin": "Y1"
+          },
+          {
+            "type": "terminal",
+            "name": "Y1_TOP",
+            "pin": null
+          }
+        ]
+      },
+      "const_name": "SymmNet",
+      "axis_dir": "V"
+    }
+  ]
+}

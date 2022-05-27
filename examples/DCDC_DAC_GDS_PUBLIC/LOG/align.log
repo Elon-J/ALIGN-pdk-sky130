@@ -1,0 +1,35 @@
+2022-05-25 03:12:12 align.main INFO : Reading netlist: /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC/DCDC_DAC.sp subckt=DCDC_DAC, flat=1
+2022-05-25 03:12:12 align.compiler.compiler INFO : Starting topology identification...
+2022-05-25 03:12:12 align.compiler.user_const INFO : Reading constraint file: [PosixPath('/home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC/DCDC_DAC.const.json')]
+2022-05-25 03:12:14 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
+2022-05-25 03:12:14 align.compiler.compiler INFO : Completed topology identification.
+2022-05-25 03:12:14 align.pnr.main INFO : Running Place & Route for DCDC_DAC
+2022-05-25 03:12:14 align.pnr.placer INFO : Starting bottom-up placement on INV_B_13409687 1
+2022-05-25 03:12:14 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-25 03:12:14 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-25 03:12:14 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-05-25 03:12:14 align.pnr.placer INFO : Starting bottom-up placement on DCDC_DAC 0
+2022-05-25 03:12:14 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-25 04:34:01 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 10 %
+2022-05-25 08:58:26 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 20 %
+2022-05-25 11:05:04 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 30 %
+2022-05-25 12:00:51 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 40 %
+2022-05-25 12:57:30 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 50 %
+2022-05-25 13:55:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 60 %
+2022-05-25 14:51:15 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 70 %
+2022-05-25 15:52:43 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 80 %
+2022-05-25 17:34:32 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : ..... 90 %
+2022-05-25 19:09:24 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-25 19:09:26 align.pnr.router INFO : Starting bottom_up routing on DCDC_DAC 0 restricted to None
+2022-05-25 19:09:26 align.pnr.router INFO : bottom up routing for INV_B_13409687 (1) placement version 0
+2022-05-25 19:09:26 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: INV_B_13409687
+2022-05-25 19:09:26 PnR.router.Router.RouteWork INFO : GcellDetailRouter: INV_B_13409687
+2022-05-25 19:09:26 align.pnr.router INFO : bottom up routing for DCDC_DAC (0) placement version 0
+2022-05-25 19:09:26 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_DAC
+2022-05-25 19:09:26 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_DAC
+2022-05-25 19:09:32 PnR.router.Router.RouteWork INFO : Create power grid: DCDC_DAC
+2022-05-25 19:09:32 PnR.router.Router.RouteWork INFO : Power routing DCDC_DAC
+2022-05-25 19:09:33 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC_GDS_PUBLIC/3_pnr/INV_B_13409687_0.json
+2022-05-25 19:09:33 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC_GDS_PUBLIC/3_pnr/INV_B_13409687_0.python.gds.json
+2022-05-25 19:09:33 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC_GDS_PUBLIC/3_pnr/DCDC_DAC_0.json
+2022-05-25 19:09:33 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC_GDS_PUBLIC/3_pnr/DCDC_DAC_0.python.gds.json

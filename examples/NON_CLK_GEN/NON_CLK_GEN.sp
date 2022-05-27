@@ -46,20 +46,20 @@ M1 NODE1 vin VPWR VPWR sky130_fd_pr__pfet_01v8 w=1050e-9 l=150e-9 nf=2 m=1
 M2 NODE1 vin VGND VGND sky130_fd_pr__nfet_01v8 w=420e-9 l=150e-9 nf=2 m=1
 M3 COUT1 a0 NODE1 VGND sky130_fd_pr__nfet_01v8 w=630e-9 l=150e-9 nf=2 m=1
 M4 COUT1 a_0 NODE1 VPWR sky130_fd_pr__pfet_01v8 w=1260e-9 l=150e-9 nf=2 m=1
-*M5 COUT1 VGND sky130_fd_pr__cap_mim_m3_1 w=1 l=1
+M5 COUT1 VGND sky130_fd_pr__cap_mim_m3_1 w=1 l=1 m=1
 M6 COUT_1 a1 NODE1 VGND sky130_fd_pr__nfet_01v8 w=630e-9 l=150e-9 nf=2 m=1
 M7 COUT_1 a_1 NODE1 VPWR sky130_fd_pr__pfet_01v8 w=1260e-9 l=150e-9 nf=2 m=1
-*M8 COUT_1 VGND sky130_fd_pr__cap_mim_m3_1 w=2 l=1
+M8 COUT_1 VGND sky130_fd_pr__cap_mim_m3_1 w=2 l=1 m=1
 M9 NODE2 NODE1 VPWR VPWR sky130_fd_pr__pfet_01v8 w=1050e-9 l=150e-9 nf=2 m=1
 M10 NODE2 NODE1 VGND VGND sky130_fd_pr__nfet_01v8 w=420e-9 l=150e-9 nf=2 m=1
 M11 COUT2 a2 NODE2 VGND sky130_fd_pr__nfet_01v8 w=630e-9 l=150e-9 nf=4 m=1
 M12 COUT2 a_2 NODE2 VPWR sky130_fd_pr__pfet_01v8 w=1260e-9 l=150e-9 nf=4 m=1
-*M13 COUT2 VGND sky130_fd_pr__cap_mim_m3_1 w=5 l=1
+M13 COUT2 VGND sky130_fd_pr__cap_mim_m3_1 w=5 l=1 m=1
 M14 NODE3 NODE2 VPWR VPWR sky130_fd_pr__pfet_01v8 w=1050e-9 l=150e-9 nf=2 m=1
 M15 NODE3 NODE2 VGND VGND sky130_fd_pr__nfet_01v8 w=420e-9 l=150e-9 nf=2 m=1
 M16 COUT3 a3 NODE3 VGND sky130_fd_pr__nfet_01v8 w=630e-9 l=150e-9 nf=10 m=1
 M17 COUT3 a_3 NODE3 VPWR sky130_fd_pr__pfet_01v8 w=1260e-9 l=150e-9 nf=10 m=1
-*M18 COUT3 VGND sky130_fd_pr__cap_mim_m3_1 w=15 l=1
+M18 COUT3 VGND sky130_fd_pr__cap_mim_m3_1 w=15 l=1 m=1
 M19 vout NODE3 VPWR VPWR sky130_fd_pr__pfet_01v8 w=1050e-9 l=150e-9 nf=2 m=1
 M20 vout NODE3 VGND VGND sky130_fd_pr__nfet_01v8 w=420e-9 l=150e-9 nf=2 m=1
 M21 vout0_x34 B3 VPWR VPWR sky130_fd_pr__pfet_01v8 w=1680e-9 l=150e-9 nf=2 m=1

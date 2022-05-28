@@ -1,4 +1,52 @@
 {
+  "CAP_2T_55207366": {
+    "value": [
+      1000000000,
+      1000000000
+    ],
+    "abstract_template_name": "CAP_2T_55207366",
+    "concrete_template_name": "CAP_2T_55207366"
+  },
+  "CAP_2T_54808307": {
+    "value": [
+      1000000000,
+      2000000000
+    ],
+    "abstract_template_name": "CAP_2T_54808307",
+    "concrete_template_name": "CAP_2T_54808307"
+  },
+  "CAP_2T_35139172": {
+    "value": [
+      1000000000,
+      4000000000
+    ],
+    "abstract_template_name": "CAP_2T_35139172",
+    "concrete_template_name": "CAP_2T_35139172"
+  },
+  "CAP_2T_49647387": {
+    "value": [
+      1000000000,
+      8000000000
+    ],
+    "abstract_template_name": "CAP_2T_49647387",
+    "concrete_template_name": "CAP_2T_49647387"
+  },
+  "CAP_2T_42108783": {
+    "value": [
+      1000000000,
+      16000000000
+    ],
+    "abstract_template_name": "CAP_2T_42108783",
+    "concrete_template_name": "CAP_2T_42108783"
+  },
+  "CAP_2T_87620109": {
+    "value": [
+      1000000000,
+      32000000000
+    ],
+    "abstract_template_name": "CAP_2T_87620109",
+    "concrete_template_name": "CAP_2T_87620109"
+  },
   "NMOS_S_22639876_X1_Y1": {
     "value": 2,
     "x_cells": 1,
@@ -18,7 +66,7 @@
     "abstract_template_name": "NMOS_S_22639876",
     "concrete_template_name": "NMOS_S_22639876_X1_Y1"
   },
-  "PMOS_4T_48942251_X1_Y2": {
+  "PMOS_4T_43971774_X1_Y2": {
     "value": 2,
     "x_cells": 1,
     "y_cells": 2,
@@ -27,17 +75,17 @@
         "W": "4.2E-07",
         "L": "1.5E-07",
         "NFIN": 2,
-        "NF": "2",
-        "M": "2",
+        "NF": "4",
+        "M": "1",
         "PARALLEL": "1",
         "STACK": "1"
       },
       "model": "PMOS"
     },
-    "abstract_template_name": "PMOS_4T_48942251",
-    "concrete_template_name": "PMOS_4T_48942251_X1_Y2"
+    "abstract_template_name": "PMOS_4T_43971774",
+    "concrete_template_name": "PMOS_4T_43971774_X1_Y2"
   },
-  "PMOS_4T_48942251_X2_Y1": {
+  "PMOS_4T_43971774_X2_Y1": {
     "value": 2,
     "x_cells": 2,
     "y_cells": 1,
@@ -46,14 +94,14 @@
         "W": "4.2E-07",
         "L": "1.5E-07",
         "NFIN": 2,
-        "NF": "2",
-        "M": "2",
+        "NF": "4",
+        "M": "1",
         "PARALLEL": "1",
         "STACK": "1"
       },
       "model": "PMOS"
     },
-    "abstract_template_name": "PMOS_4T_48942251",
-    "concrete_template_name": "PMOS_4T_48942251_X2_Y1"
+    "abstract_template_name": "PMOS_4T_43971774",
+    "concrete_template_name": "PMOS_4T_43971774_X2_Y1"
   }
 }

@@ -5,48 +5,48 @@
                 "LLx": 0,
                 "LLy": 0,
                 "Physical Layer": "null",
-                "URx": 123840,
-                "URy": 60480
+                "URx": 144480,
+                "URy": 73920
             },
-            "Height": 60480,
+            "Height": 73920,
             "Name": "X0",
             "Pins": [
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 12620,
-                            "LLy": 30760,
+                            "LLx": 14340,
+                            "LLy": 39160,
                             "Physical Layer": "M3",
-                            "URx": 13180,
-                            "URy": 44000
+                            "URx": 14900,
+                            "URy": 52400
                         },
                         {
-                            "LLx": 110660,
-                            "LLy": 30760,
+                            "LLx": 129580,
+                            "LLy": 39160,
                             "Physical Layer": "M3",
-                            "URx": 111220,
-                            "URy": 44000
+                            "URx": 130140,
+                            "URy": 52400
                         },
                         {
-                            "LLx": 12620,
-                            "LLy": 32390,
+                            "LLx": 14340,
+                            "LLy": 44990,
                             "Physical Layer": "M3",
-                            "URx": 13180,
-                            "URy": 33130
+                            "URx": 14900,
+                            "URy": 45730
                         },
                         {
-                            "LLx": 12900,
-                            "LLy": 31960,
-                            "Physical Layer": "M4",
-                            "URx": 110940,
-                            "URy": 33560
+                            "LLx": 14620,
+                            "LLy": 45080,
+                            "Physical Layer": "M2",
+                            "URx": 129860,
+                            "URy": 45640
                         },
                         {
-                            "LLx": 110660,
-                            "LLy": 32390,
+                            "LLx": 129580,
+                            "LLy": 44990,
                             "Physical Layer": "M3",
-                            "URx": 111220,
-                            "URy": 33130
+                            "URx": 130140,
+                            "URy": 45730
                         }
                     ],
                     "Name": "CLK0"
@@ -54,39 +54,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 48740,
-                            "LLy": 16480,
+                            "LLx": 57340,
+                            "LLy": 21520,
                             "Physical Layer": "M3",
-                            "URx": 49300,
-                            "URy": 29720
+                            "URx": 57900,
+                            "URy": 34760
                         },
                         {
-                            "LLx": 74540,
-                            "LLy": 16480,
+                            "LLx": 86580,
+                            "LLy": 21520,
                             "Physical Layer": "M3",
-                            "URx": 75100,
-                            "URy": 29720
+                            "URx": 87140,
+                            "URy": 34760
                         },
                         {
-                            "LLx": 48740,
-                            "LLy": 15960,
+                            "LLx": 57340,
+                            "LLy": 27350,
                             "Physical Layer": "M3",
-                            "URx": 49300,
-                            "URy": 16800
+                            "URx": 57900,
+                            "URy": 28090
                         },
                         {
-                            "LLx": 49020,
-                            "LLy": 15680,
+                            "LLx": 57620,
+                            "LLy": 27440,
                             "Physical Layer": "M2",
-                            "URx": 74820,
-                            "URy": 16240
+                            "URx": 86860,
+                            "URy": 28000
                         },
                         {
-                            "LLx": 74540,
-                            "LLy": 15960,
+                            "LLx": 86580,
+                            "LLy": 27350,
                             "Physical Layer": "M3",
-                            "URx": 75100,
-                            "URy": 16800
+                            "URx": 87140,
+                            "URy": 28090
                         }
                     ],
                     "Name": "CLK0B"
@@ -94,67 +94,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 48740,
-                            "LLy": 30760,
+                            "LLx": 57340,
+                            "LLy": 39160,
                             "Physical Layer": "M3",
-                            "URx": 49300,
-                            "URy": 44000
+                            "URx": 57900,
+                            "URy": 52400
                         },
                         {
-                            "LLx": 74540,
-                            "LLy": 30760,
+                            "LLx": 86580,
+                            "LLy": 39160,
                             "Physical Layer": "M3",
-                            "URx": 75100,
-                            "URy": 44000
+                            "URx": 87140,
+                            "URy": 52400
                         },
                         {
-                            "LLx": 48740,
-                            "LLy": 43680,
+                            "LLx": 57340,
+                            "LLy": 44990,
                             "Physical Layer": "M3",
-                            "URx": 49300,
-                            "URy": 45360
+                            "URx": 57900,
+                            "URy": 45730
                         },
                         {
-                            "LLx": 49020,
+                            "LLx": 57620,
                             "LLy": 44560,
                             "Physical Layer": "M4",
-                            "URx": 50320,
+                            "URx": 86860,
                             "URy": 46160
                         },
                         {
-                            "LLx": 49140,
-                            "LLy": 45360,
-                            "Physical Layer": "M5",
-                            "URx": 51500,
-                            "URy": 50400
-                        },
-                        {
-                            "LLx": 50320,
-                            "LLy": 49600,
-                            "Physical Layer": "M4",
-                            "URx": 74000,
-                            "URy": 51200
-                        },
-                        {
-                            "LLx": 72820,
-                            "LLy": 47880,
-                            "Physical Layer": "M5",
-                            "URx": 75180,
-                            "URy": 50400
-                        },
-                        {
-                            "LLx": 74000,
-                            "LLy": 47080,
-                            "Physical Layer": "M4",
-                            "URx": 74820,
-                            "URy": 48680
-                        },
-                        {
-                            "LLx": 74540,
-                            "LLy": 43680,
+                            "LLx": 86580,
+                            "LLy": 44990,
                             "Physical Layer": "M3",
-                            "URx": 75100,
-                            "URy": 47880
+                            "URx": 87140,
+                            "URy": 45730
                         }
                     ],
                     "Name": "CLK1"
@@ -162,39 +134,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 12620,
-                            "LLy": 16480,
+                            "LLx": 14340,
+                            "LLy": 21520,
                             "Physical Layer": "M3",
-                            "URx": 13180,
-                            "URy": 29720
+                            "URx": 14900,
+                            "URy": 34760
                         },
                         {
-                            "LLx": 110660,
-                            "LLy": 16480,
+                            "LLx": 129580,
+                            "LLy": 21520,
                             "Physical Layer": "M3",
-                            "URx": 111220,
-                            "URy": 29720
+                            "URx": 130140,
+                            "URy": 34760
                         },
                         {
-                            "LLx": 12620,
-                            "LLy": 22310,
+                            "LLx": 14340,
+                            "LLy": 27350,
                             "Physical Layer": "M3",
-                            "URx": 13180,
-                            "URy": 23050
+                            "URx": 14900,
+                            "URy": 28090
                         },
                         {
-                            "LLx": 12900,
-                            "LLy": 21880,
+                            "LLx": 14620,
+                            "LLy": 26920,
                             "Physical Layer": "M4",
-                            "URx": 110940,
-                            "URy": 23480
+                            "URx": 129860,
+                            "URy": 28520
                         },
                         {
-                            "LLx": 110660,
-                            "LLy": 22310,
+                            "LLx": 129580,
+                            "LLy": 27350,
                             "Physical Layer": "M3",
-                            "URx": 111220,
-                            "URy": 23050
+                            "URx": 130140,
+                            "URy": 28090
                         }
                     ],
                     "Name": "CLK1B"
@@ -202,109 +174,81 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 29760,
-                            "LLy": 58520,
+                            "LLx": 34920,
+                            "LLy": 70280,
                             "Physical Layer": "M2",
-                            "URx": 32160,
-                            "URy": 59080
+                            "URx": 37320,
+                            "URy": 70840
                         },
                         {
-                            "LLx": 29760,
-                            "LLy": 43400,
+                            "LLx": 34920,
+                            "LLy": 51800,
                             "Physical Layer": "M2",
-                            "URx": 32160,
-                            "URy": 43960
+                            "URx": 37320,
+                            "URy": 52360
                         },
                         {
-                            "LLx": 29780,
-                            "LLy": 58520,
+                            "LLx": 34940,
+                            "LLy": 70280,
                             "Physical Layer": "M2",
-                            "URx": 30420,
-                            "URy": 59080
+                            "URx": 35580,
+                            "URy": 70840
                         },
                         {
-                            "LLx": 29820,
-                            "LLy": 43680,
+                            "LLx": 34980,
+                            "LLy": 52080,
                             "Physical Layer": "M3",
-                            "URx": 30380,
-                            "URy": 58800
+                            "URx": 35540,
+                            "URy": 70560
                         },
                         {
-                            "LLx": 29780,
-                            "LLy": 43400,
+                            "LLx": 34940,
+                            "LLy": 51800,
                             "Physical Layer": "M2",
-                            "URx": 30420,
-                            "URy": 43960
+                            "URx": 35580,
+                            "URy": 52360
                         },
                         {
-                            "LLx": 91680,
-                            "LLy": 58520,
+                            "LLx": 107160,
+                            "LLy": 70280,
                             "Physical Layer": "M2",
-                            "URx": 94080,
-                            "URy": 59080
+                            "URx": 109560,
+                            "URy": 70840
                         },
                         {
-                            "LLx": 91680,
-                            "LLy": 43400,
+                            "LLx": 107160,
+                            "LLy": 51800,
                             "Physical Layer": "M2",
-                            "URx": 94080,
-                            "URy": 43960
+                            "URx": 109560,
+                            "URy": 52360
                         },
                         {
-                            "LLx": 93420,
-                            "LLy": 58520,
+                            "LLx": 108900,
+                            "LLy": 70280,
                             "Physical Layer": "M2",
-                            "URx": 94060,
-                            "URy": 59080
+                            "URx": 109540,
+                            "URy": 70840
                         },
                         {
-                            "LLx": 93460,
-                            "LLy": 43680,
+                            "LLx": 108940,
+                            "LLy": 52080,
                             "Physical Layer": "M3",
-                            "URx": 94020,
-                            "URy": 58800
+                            "URx": 109500,
+                            "URy": 70560
                         },
                         {
-                            "LLx": 93420,
-                            "LLy": 43400,
+                            "LLx": 108900,
+                            "LLy": 51800,
                             "Physical Layer": "M2",
-                            "URx": 94060,
-                            "URy": 43960
+                            "URx": 109540,
+                            "URy": 52360
                         },
                         {
-                            "LLx": 31820,
-                            "LLy": 43400,
+                            "LLx": 36980,
+                            "LLy": 70280,
                             "Physical Layer": "M2",
-                            "URx": 32680,
-                            "URy": 43960
-                        },
-                        {
-                            "LLx": 32400,
-                            "LLy": 42840,
-                            "Physical Layer": "M3",
-                            "URx": 32960,
-                            "URy": 43680
-                        },
-                        {
-                            "LLx": 32680,
-                            "LLy": 42040,
-                            "Physical Layer": "M4",
-                            "URx": 86000,
-                            "URy": 43640
-                        },
-                        {
-                            "LLx": 85720,
-                            "LLy": 42840,
-                            "Physical Layer": "M3",
-                            "URx": 86280,
-                            "URy": 43680
-                        },
-                        {
-                            "LLx": 86000,
-                            "LLy": 43400,
-                            "Physical Layer": "M2",
-                            "URx": 92020,
-                            "URy": 43960
+                            "URx": 107500,
+                            "URy": 70840
                         }
                     ],
                     "Name": "VGND"
@@ -312,39 +256,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 28900,
-                            "LLy": 12320,
+                            "LLx": 34060,
+                            "LLy": 14000,
                             "Physical Layer": "M2",
-                            "URx": 33020,
-                            "URy": 12880
+                            "URx": 38180,
+                            "URy": 14560
                         },
                         {
-                            "LLx": 28900,
-                            "LLy": 27440,
+                            "LLx": 34060,
+                            "LLy": 32480,
                             "Physical Layer": "M2",
-                            "URx": 33020,
-                            "URy": 28000
+                            "URx": 38180,
+                            "URy": 33040
                         },
                         {
-                            "LLx": 28920,
-                            "LLy": 12320,
+                            "LLx": 34080,
+                            "LLy": 14000,
                             "Physical Layer": "M2",
-                            "URx": 29560,
-                            "URy": 12880
+                            "URx": 34720,
+                            "URy": 14560
                         },
                         {
-                            "LLx": 28960,
-                            "LLy": 12600,
+                            "LLx": 34120,
+                            "LLy": 14280,
                             "Physical Layer": "M3",
-                            "URx": 29520,
-                            "URy": 27720
+                            "URx": 34680,
+                            "URy": 32760
                         },
                         {
-                            "LLx": 28920,
-                            "LLy": 27440,
+                            "LLx": 34080,
+                            "LLy": 32480,
                             "Physical Layer": "M2",
-                            "URx": 29560,
-                            "URy": 28000
+                            "URx": 34720,
+                            "URy": 33040
                         }
                     ],
                     "Name": "VHIGH"
@@ -352,39 +296,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 90820,
-                            "LLy": 47600,
+                            "LLx": 106300,
+                            "LLy": 59360,
                             "Physical Layer": "M2",
-                            "URx": 94940,
-                            "URy": 48160
+                            "URx": 110420,
+                            "URy": 59920
                         },
                         {
-                            "LLx": 90820,
-                            "LLy": 32480,
+                            "LLx": 106300,
+                            "LLy": 40880,
                             "Physical Layer": "M2",
-                            "URx": 94940,
-                            "URy": 33040
+                            "URx": 110420,
+                            "URy": 41440
                         },
                         {
-                            "LLx": 90840,
-                            "LLy": 47600,
+                            "LLx": 109760,
+                            "LLy": 59360,
                             "Physical Layer": "M2",
-                            "URx": 91480,
-                            "URy": 48160
+                            "URx": 110400,
+                            "URy": 59920
                         },
                         {
-                            "LLx": 90880,
-                            "LLy": 32760,
+                            "LLx": 109800,
+                            "LLy": 41160,
                             "Physical Layer": "M3",
-                            "URx": 91440,
-                            "URy": 47880
+                            "URx": 110360,
+                            "URy": 59640
                         },
                         {
-                            "LLx": 90840,
-                            "LLy": 32480,
+                            "LLx": 109760,
+                            "LLy": 40880,
                             "Physical Layer": "M2",
-                            "URx": 91480,
-                            "URy": 33040
+                            "URx": 110400,
+                            "URy": 41440
                         }
                     ],
                     "Name": "VLOW"
@@ -392,95 +336,95 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 28900,
-                            "LLy": 47600,
+                            "LLx": 34060,
+                            "LLy": 59360,
                             "Physical Layer": "M2",
-                            "URx": 33020,
-                            "URy": 48160
+                            "URx": 38180,
+                            "URy": 59920
                         },
                         {
-                            "LLx": 28900,
-                            "LLy": 32480,
+                            "LLx": 34060,
+                            "LLy": 40880,
                             "Physical Layer": "M2",
-                            "URx": 33020,
-                            "URy": 33040
+                            "URx": 38180,
+                            "URy": 41440
                         },
                         {
-                            "LLx": 28920,
-                            "LLy": 47600,
+                            "LLx": 34080,
+                            "LLy": 59360,
                             "Physical Layer": "M2",
-                            "URx": 29560,
-                            "URy": 48160
+                            "URx": 34720,
+                            "URy": 59920
                         },
                         {
-                            "LLx": 28960,
-                            "LLy": 32760,
+                            "LLx": 34120,
+                            "LLy": 41160,
                             "Physical Layer": "M3",
-                            "URx": 29520,
-                            "URy": 47880
+                            "URx": 34680,
+                            "URy": 59640
                         },
                         {
-                            "LLx": 28920,
+                            "LLx": 34080,
+                            "LLy": 40880,
+                            "Physical Layer": "M2",
+                            "URx": 34720,
+                            "URy": 41440
+                        },
+                        {
+                            "LLx": 106300,
+                            "LLy": 14000,
+                            "Physical Layer": "M2",
+                            "URx": 110420,
+                            "URy": 14560
+                        },
+                        {
+                            "LLx": 106300,
                             "LLy": 32480,
                             "Physical Layer": "M2",
-                            "URx": 29560,
+                            "URx": 110420,
                             "URy": 33040
                         },
                         {
-                            "LLx": 90820,
-                            "LLy": 12320,
+                            "LLx": 109760,
+                            "LLy": 14000,
                             "Physical Layer": "M2",
-                            "URx": 94940,
-                            "URy": 12880
+                            "URx": 110400,
+                            "URy": 14560
                         },
                         {
-                            "LLx": 90820,
-                            "LLy": 27440,
-                            "Physical Layer": "M2",
-                            "URx": 94940,
-                            "URy": 28000
-                        },
-                        {
-                            "LLx": 90840,
-                            "LLy": 12320,
-                            "Physical Layer": "M2",
-                            "URx": 91480,
-                            "URy": 12880
-                        },
-                        {
-                            "LLx": 90880,
-                            "LLy": 12600,
+                            "LLx": 109800,
+                            "LLy": 14280,
                             "Physical Layer": "M3",
-                            "URx": 91440,
-                            "URy": 27720
-                        },
-                        {
-                            "LLx": 90840,
-                            "LLy": 27440,
-                            "Physical Layer": "M2",
-                            "URx": 91480,
-                            "URy": 28000
-                        },
-                        {
-                            "LLx": 32680,
-                            "LLy": 32480,
-                            "Physical Layer": "M2",
-                            "URx": 34400,
-                            "URy": 33040
-                        },
-                        {
-                            "LLx": 34150,
-                            "LLy": 27720,
-                            "Physical Layer": "M1",
-                            "URx": 34650,
+                            "URx": 110360,
                             "URy": 32760
                         },
                         {
-                            "LLx": 34400,
-                            "LLy": 27440,
+                            "LLx": 109760,
+                            "LLy": 32480,
                             "Physical Layer": "M2",
-                            "URx": 91160,
-                            "URy": 28000
+                            "URx": 110400,
+                            "URy": 33040
+                        },
+                        {
+                            "LLx": 37840,
+                            "LLy": 40880,
+                            "Physical Layer": "M2",
+                            "URx": 39560,
+                            "URy": 41440
+                        },
+                        {
+                            "LLx": 39310,
+                            "LLy": 32760,
+                            "Physical Layer": "M1",
+                            "URx": 39810,
+                            "URy": 41160
+                        },
+                        {
+                            "LLx": 39560,
+                            "LLy": 32480,
+                            "Physical Layer": "M2",
+                            "URx": 106640,
+                            "URy": 33040
                         }
                     ],
                     "Name": "VMID"
@@ -488,109 +432,81 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 29760,
-                            "LLy": 1400,
+                            "LLx": 34920,
+                            "LLy": 3080,
                             "Physical Layer": "M2",
-                            "URx": 32160,
-                            "URy": 1960
+                            "URx": 37320,
+                            "URy": 3640
                         },
                         {
-                            "LLx": 29760,
-                            "LLy": 16520,
+                            "LLx": 34920,
+                            "LLy": 21560,
                             "Physical Layer": "M2",
-                            "URx": 32160,
-                            "URy": 17080
+                            "URx": 37320,
+                            "URy": 22120
                         },
                         {
-                            "LLx": 29780,
-                            "LLy": 1400,
+                            "LLx": 34940,
+                            "LLy": 3080,
                             "Physical Layer": "M2",
-                            "URx": 30420,
-                            "URy": 1960
+                            "URx": 35580,
+                            "URy": 3640
                         },
                         {
-                            "LLx": 29820,
-                            "LLy": 1680,
+                            "LLx": 34980,
+                            "LLy": 3360,
                             "Physical Layer": "M3",
-                            "URx": 30380,
-                            "URy": 16800
+                            "URx": 35540,
+                            "URy": 21840
                         },
                         {
-                            "LLx": 29780,
-                            "LLy": 16520,
+                            "LLx": 34940,
+                            "LLy": 21560,
                             "Physical Layer": "M2",
-                            "URx": 30420,
-                            "URy": 17080
+                            "URx": 35580,
+                            "URy": 22120
                         },
                         {
-                            "LLx": 91680,
-                            "LLy": 1400,
+                            "LLx": 107160,
+                            "LLy": 3080,
                             "Physical Layer": "M2",
-                            "URx": 94080,
-                            "URy": 1960
+                            "URx": 109560,
+                            "URy": 3640
                         },
                         {
-                            "LLx": 91680,
-                            "LLy": 16520,
+                            "LLx": 107160,
+                            "LLy": 21560,
                             "Physical Layer": "M2",
-                            "URx": 94080,
-                            "URy": 17080
+                            "URx": 109560,
+                            "URy": 22120
                         },
                         {
-                            "LLx": 93420,
-                            "LLy": 1400,
+                            "LLx": 108900,
+                            "LLy": 3080,
                             "Physical Layer": "M2",
-                            "URx": 94060,
-                            "URy": 1960
+                            "URx": 109540,
+                            "URy": 3640
                         },
                         {
-                            "LLx": 93460,
-                            "LLy": 1680,
+                            "LLx": 108940,
+                            "LLy": 3360,
                             "Physical Layer": "M3",
-                            "URx": 94020,
-                            "URy": 16800
+                            "URx": 109500,
+                            "URy": 21840
                         },
                         {
-                            "LLx": 93420,
-                            "LLy": 16520,
+                            "LLx": 108900,
+                            "LLy": 21560,
                             "Physical Layer": "M2",
-                            "URx": 94060,
-                            "URy": 17080
+                            "URx": 109540,
+                            "URy": 22120
                         },
                         {
-                            "LLx": 31500,
-                            "LLy": 1400,
+                            "LLx": 36980,
+                            "LLy": 3080,
                             "Physical Layer": "M2",
-                            "URx": 32140,
-                            "URy": 1960
-                        },
-                        {
-                            "LLx": 31540,
-                            "LLy": 1680,
-                            "Physical Layer": "M3",
-                            "URx": 32100,
-                            "URy": 2520
-                        },
-                        {
-                            "LLx": 31820,
-                            "LLy": 1720,
-                            "Physical Layer": "M4",
-                            "URx": 86000,
-                            "URy": 3320
-                        },
-                        {
-                            "LLx": 85720,
-                            "LLy": 1680,
-                            "Physical Layer": "M3",
-                            "URx": 86280,
-                            "URy": 2520
-                        },
-                        {
-                            "LLx": 86000,
-                            "LLy": 1400,
-                            "Physical Layer": "M2",
-                            "URx": 92020,
-                            "URy": 1960
+                            "URx": 107500,
+                            "URy": 3640
                         }
                     ],
                     "Name": "VPWR"
@@ -598,39 +514,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 89960,
-                            "LLy": 29120,
+                            "LLx": 105440,
+                            "LLy": 34160,
                             "Physical Layer": "M2",
-                            "URx": 92360,
-                            "URy": 29680
+                            "URx": 107840,
+                            "URy": 34720
                         },
                         {
-                            "LLx": 89960,
-                            "LLy": 30800,
+                            "LLx": 105440,
+                            "LLy": 39200,
                             "Physical Layer": "M2",
-                            "URx": 92360,
-                            "URy": 31360
+                            "URx": 107840,
+                            "URy": 39760
                         },
                         {
-                            "LLx": 90840,
-                            "LLy": 29120,
+                            "LLx": 106320,
+                            "LLy": 34160,
                             "Physical Layer": "M2",
-                            "URx": 91480,
-                            "URy": 29680
+                            "URx": 106960,
+                            "URy": 34720
                         },
                         {
-                            "LLx": 90880,
-                            "LLy": 29400,
+                            "LLx": 106360,
+                            "LLy": 34440,
                             "Physical Layer": "M3",
-                            "URx": 91440,
-                            "URy": 31080
+                            "URx": 106920,
+                            "URy": 39480
                         },
                         {
-                            "LLx": 90840,
-                            "LLy": 30800,
+                            "LLx": 106320,
+                            "LLy": 39200,
                             "Physical Layer": "M2",
-                            "URx": 91480,
-                            "URy": 31360
+                            "URx": 106960,
+                            "URy": 39760
                         }
                     ],
                     "Name": "Y0_BOT"
@@ -638,39 +554,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 31480,
-                            "LLy": 29120,
+                            "LLx": 36640,
+                            "LLy": 34160,
                             "Physical Layer": "M2",
-                            "URx": 33880,
-                            "URy": 29680
+                            "URx": 39040,
+                            "URy": 34720
                         },
                         {
-                            "LLx": 31480,
-                            "LLy": 30800,
+                            "LLx": 36640,
+                            "LLy": 39200,
                             "Physical Layer": "M2",
-                            "URx": 33880,
-                            "URy": 31360
+                            "URx": 39040,
+                            "URy": 39760
                         },
                         {
-                            "LLx": 32360,
-                            "LLy": 29120,
+                            "LLx": 37520,
+                            "LLy": 34160,
                             "Physical Layer": "M2",
-                            "URx": 33000,
-                            "URy": 29680
+                            "URx": 38160,
+                            "URy": 34720
                         },
                         {
-                            "LLx": 32400,
-                            "LLy": 29400,
+                            "LLx": 37560,
+                            "LLy": 34440,
                             "Physical Layer": "M3",
-                            "URx": 32960,
-                            "URy": 31080
+                            "URx": 38120,
+                            "URy": 39480
                         },
                         {
-                            "LLx": 32360,
-                            "LLy": 30800,
+                            "LLx": 37520,
+                            "LLy": 39200,
                             "Physical Layer": "M2",
-                            "URx": 33000,
-                            "URy": 31360
+                            "URx": 38160,
+                            "URy": 39760
                         }
                     ],
                     "Name": "Y0_TOP"
@@ -678,39 +594,39 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 91680,
-                            "LLy": 28280,
+                            "LLx": 107160,
+                            "LLy": 33320,
                             "Physical Layer": "M2",
-                            "URx": 94080,
-                            "URy": 28840
+                            "URx": 109560,
+                            "URy": 33880
                         },
                         {
-                            "LLx": 91680,
-                            "LLy": 31640,
+                            "LLx": 107160,
+                            "LLy": 40040,
                             "Physical Layer": "M2",
-                            "URx": 94080,
-                            "URy": 32200
+                            "URx": 109560,
+                            "URy": 40600
                         },
                         {
-                            "LLx": 92560,
-                            "LLy": 28280,
+                            "LLx": 108040,
+                            "LLy": 33320,
                             "Physical Layer": "M2",
-                            "URx": 93200,
-                            "URy": 28840
+                            "URx": 108680,
+                            "URy": 33880
                         },
                         {
-                            "LLx": 92600,
-                            "LLy": 28560,
+                            "LLx": 108080,
+                            "LLy": 33600,
                             "Physical Layer": "M3",
-                            "URx": 93160,
-                            "URy": 31920
+                            "URx": 108640,
+                            "URy": 40320
                         },
                         {
-                            "LLx": 92560,
-                            "LLy": 31640,
+                            "LLx": 108040,
+                            "LLy": 40040,
                             "Physical Layer": "M2",
-                            "URx": 93200,
-                            "URy": 32200
+                            "URx": 108680,
+                            "URy": 40600
                         }
                     ],
                     "Name": "Y1_BOT"
@@ -718,45 +634,45 @@
                 {
                     "Internal Metal": [
                         {
-                            "LLx": 29760,
-                            "LLy": 28280,
+                            "LLx": 34920,
+                            "LLy": 33320,
                             "Physical Layer": "M2",
-                            "URx": 32160,
-                            "URy": 28840
+                            "URx": 37320,
+                            "URy": 33880
                         },
                         {
-                            "LLx": 29760,
-                            "LLy": 31640,
+                            "LLx": 34920,
+                            "LLy": 40040,
                             "Physical Layer": "M2",
-                            "URx": 32160,
-                            "URy": 32200
+                            "URx": 37320,
+                            "URy": 40600
                         },
                         {
-                            "LLx": 30640,
-                            "LLy": 28280,
+                            "LLx": 35800,
+                            "LLy": 33320,
                             "Physical Layer": "M2",
-                            "URx": 31280,
-                            "URy": 28840
+                            "URx": 36440,
+                            "URy": 33880
                         },
                         {
-                            "LLx": 30680,
-                            "LLy": 28560,
+                            "LLx": 35840,
+                            "LLy": 33600,
                             "Physical Layer": "M3",
-                            "URx": 31240,
-                            "URy": 31920
+                            "URx": 36400,
+                            "URy": 40320
                         },
                         {
-                            "LLx": 30640,
-                            "LLy": 31640,
+                            "LLx": 35800,
+                            "LLy": 40040,
                             "Physical Layer": "M2",
-                            "URx": 31280,
-                            "URy": 32200
+                            "URx": 36440,
+                            "URy": 40600
                         }
                     ],
                     "Name": "Y1_TOP"
                 }
             ],
-            "Width": 123840
+            "Width": 144480
         }
     ],
     "Cell Name": "DCDC_CONV2TO1",
@@ -764,809 +680,59 @@
         "LLx": 0,
         "LLy": 0,
         "Physical Layer": "null",
-        "URx": 123840,
-        "URy": 60480
+        "URx": 144480,
+        "URy": 73920
     },
     "Gcell": [
         {
             "Physical Layer": 0,
-            "x": 8600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 0,
-            "x": 8600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 8600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 8600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 0,
-            "x": 25800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 0,
-            "x": 25800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 25800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 25800,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 0,
             "x": 43000,
-            "y": 8400
+            "y": 36960
         },
         {
             "Physical Layer": 0,
-            "x": 43000,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 43000,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 43000,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 0,
-            "x": 60200,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 0,
-            "x": 60200,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 60200,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 60200,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 0,
-            "x": 77400,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 0,
-            "x": 77400,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 77400,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 77400,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 0,
-            "x": 94600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 0,
-            "x": 94600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 94600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 94600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 0,
-            "x": 111800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 0,
-            "x": 111800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 111800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 111800,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 0,
-            "x": 122120,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 0,
-            "x": 122120,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 0,
-            "x": 122120,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 0,
-            "x": 122120,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 1,
-            "x": 8600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 1,
-            "x": 8600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 8600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 8600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 1,
-            "x": 25800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 1,
-            "x": 25800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 25800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 25800,
-            "y": 55440
+            "x": 115240,
+            "y": 36960
         },
         {
             "Physical Layer": 1,
             "x": 43000,
-            "y": 8400
+            "y": 36960
         },
         {
             "Physical Layer": 1,
-            "x": 43000,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 43000,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 43000,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 1,
-            "x": 60200,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 1,
-            "x": 60200,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 60200,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 60200,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 1,
-            "x": 77400,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 1,
-            "x": 77400,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 77400,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 77400,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 1,
-            "x": 94600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 1,
-            "x": 94600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 94600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 94600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 1,
-            "x": 111800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 1,
-            "x": 111800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 111800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 111800,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 1,
-            "x": 122120,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 1,
-            "x": 122120,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 1,
-            "x": 122120,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 1,
-            "x": 122120,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 2,
-            "x": 8600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 2,
-            "x": 8600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 8600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 8600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 2,
-            "x": 25800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 2,
-            "x": 25800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 25800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 25800,
-            "y": 55440
+            "x": 115240,
+            "y": 36960
         },
         {
             "Physical Layer": 2,
             "x": 43000,
-            "y": 8400
+            "y": 36960
         },
         {
             "Physical Layer": 2,
-            "x": 43000,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 43000,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 43000,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 2,
-            "x": 60200,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 2,
-            "x": 60200,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 60200,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 60200,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 2,
-            "x": 77400,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 2,
-            "x": 77400,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 77400,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 77400,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 2,
-            "x": 94600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 2,
-            "x": 94600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 94600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 94600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 2,
-            "x": 111800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 2,
-            "x": 111800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 111800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 111800,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 2,
-            "x": 122120,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 2,
-            "x": 122120,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 2,
-            "x": 122120,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 2,
-            "x": 122120,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 3,
-            "x": 8600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 3,
-            "x": 8600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 8600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 8600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 3,
-            "x": 25800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 3,
-            "x": 25800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 25800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 25800,
-            "y": 55440
+            "x": 115240,
+            "y": 36960
         },
         {
             "Physical Layer": 3,
             "x": 43000,
-            "y": 8400
+            "y": 36960
         },
         {
             "Physical Layer": 3,
-            "x": 43000,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 43000,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 43000,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 3,
-            "x": 60200,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 3,
-            "x": 60200,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 60200,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 60200,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 3,
-            "x": 77400,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 3,
-            "x": 77400,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 77400,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 77400,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 3,
-            "x": 94600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 3,
-            "x": 94600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 94600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 94600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 3,
-            "x": 111800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 3,
-            "x": 111800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 111800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 111800,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 3,
-            "x": 122120,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 3,
-            "x": 122120,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 3,
-            "x": 122120,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 3,
-            "x": 122120,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 4,
-            "x": 8600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 4,
-            "x": 8600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 8600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 8600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 4,
-            "x": 25800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 4,
-            "x": 25800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 25800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 25800,
-            "y": 55440
+            "x": 115240,
+            "y": 36960
         },
         {
             "Physical Layer": 4,
             "x": 43000,
-            "y": 8400
+            "y": 36960
         },
         {
             "Physical Layer": 4,
-            "x": 43000,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 43000,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 43000,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 4,
-            "x": 60200,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 4,
-            "x": 60200,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 60200,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 60200,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 4,
-            "x": 77400,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 4,
-            "x": 77400,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 77400,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 77400,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 4,
-            "x": 94600,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 4,
-            "x": 94600,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 94600,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 94600,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 4,
-            "x": 111800,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 4,
-            "x": 111800,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 111800,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 111800,
-            "y": 55440
-        },
-        {
-            "Physical Layer": 4,
-            "x": 122120,
-            "y": 8400
-        },
-        {
-            "Physical Layer": 4,
-            "x": 122120,
-            "y": 25200
-        },
-        {
-            "Physical Layer": 4,
-            "x": 122120,
-            "y": 42000
-        },
-        {
-            "Physical Layer": 4,
-            "x": 122120,
-            "y": 55440
+            "x": 115240,
+            "y": 36960
         }
     ],
     "Glbaol_Routes": [
@@ -1575,118 +741,23 @@
                 {
                     "Physical Layer ll": 2,
                     "Physical Layer ur": 2,
-                    "llx": 8600,
-                    "lly": 25200,
-                    "urx": 8600,
-                    "ury": 25200
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "CLK0",
             "terminals": [
                 {
                     "Physical Layer": 2,
-                    "x": 8600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 8600,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 111800,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 111800,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 8600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 25800,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
                     "x": 43000,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 60200,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 77400,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 94600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 111800,
-                    "y": 25200
-                }
-            ]
-        },
-        {
-            "global_path": [
-                {
-                    "Physical Layer ll": 1,
-                    "Physical Layer ur": 1,
-                    "llx": 43000,
-                    "lly": 8400,
-                    "urx": 43000,
-                    "ury": 8400
-                }
-            ],
-            "name": "CLK0B",
-            "terminals": [
-                {
-                    "Physical Layer": 1,
-                    "x": 43000,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 60200,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 77400,
-                    "y": 8400
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 43000,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 43000,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 77400,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 77400,
-                    "y": 25200
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -1696,9 +767,34 @@
                     "Physical Layer ll": 2,
                     "Physical Layer ur": 2,
                     "llx": 43000,
-                    "lly": 25200,
+                    "lly": 36960,
                     "urx": 43000,
-                    "ury": 25200
+                    "ury": 36960
+                }
+            ],
+            "name": "CLK0B",
+            "terminals": [
+                {
+                    "Physical Layer": 2,
+                    "x": 43000,
+                    "y": 36960
+                },
+                {
+                    "Physical Layer": 2,
+                    "x": 115240,
+                    "y": 36960
+                }
+            ]
+        },
+        {
+            "global_path": [
+                {
+                    "Physical Layer ll": 2,
+                    "Physical Layer ur": 2,
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "CLK1",
@@ -1706,62 +802,12 @@
                 {
                     "Physical Layer": 2,
                     "x": 43000,
-                    "y": 25200
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 43000,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 77400,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 77400,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 43000,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 43000,
-                    "y": 55440
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 60200,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 60200,
-                    "y": 55440
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 77400,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 77400,
-                    "y": 55440
-                },
-                {
-                    "Physical Layer": 4,
-                    "x": 43000,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 4,
-                    "x": 77400,
-                    "y": 42000
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -1770,68 +816,23 @@
                 {
                     "Physical Layer ll": 2,
                     "Physical Layer ur": 2,
-                    "llx": 8600,
-                    "lly": 8400,
-                    "urx": 8600,
-                    "ury": 8400
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "CLK1B",
             "terminals": [
                 {
                     "Physical Layer": 2,
-                    "x": 8600,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 8600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 111800,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 111800,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 8600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 25800,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
                     "x": 43000,
-                    "y": 25200
+                    "y": 36960
                 },
                 {
-                    "Physical Layer": 3,
-                    "x": 60200,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 77400,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 94600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 111800,
-                    "y": 25200
+                    "Physical Layer": 2,
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -1840,78 +841,33 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 25800,
-                    "lly": 42000,
-                    "urx": 25800,
-                    "ury": 42000
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "VGND",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 55440
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 55440
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 55440
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 77400,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 55440
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 25800,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 3,
                     "x": 43000,
-                    "y": 42000
+                    "y": 36960
                 },
                 {
-                    "Physical Layer": 3,
-                    "x": 60200,
-                    "y": 42000
+                    "Physical Layer": 1,
+                    "x": 115240,
+                    "y": 36960
                 },
                 {
-                    "Physical Layer": 3,
-                    "x": 77400,
-                    "y": 42000
+                    "Physical Layer": 2,
+                    "x": 43000,
+                    "y": 36960
+                },
+                {
+                    "Physical Layer": 2,
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -1920,33 +876,23 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 25800,
-                    "lly": 8400,
-                    "urx": 25800,
-                    "ury": 8400
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "VHIGH",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 25200
+                    "x": 43000,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 25200
+                    "x": 43000,
+                    "y": 36960
                 }
             ]
         },
@@ -1955,33 +901,23 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 94600,
-                    "lly": 25200,
-                    "urx": 94600,
-                    "ury": 25200
+                    "llx": 115240,
+                    "lly": 36960,
+                    "urx": 115240,
+                    "ury": 36960
                 }
             ],
             "name": "VLOW",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 42000
+                    "x": 115240,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 42000
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -1990,78 +926,38 @@
                 {
                     "Physical Layer ll": 0,
                     "Physical Layer ur": 0,
-                    "llx": 25800,
-                    "lly": 25200,
-                    "urx": 25800,
-                    "ury": 25200
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "VMID",
             "terminals": [
                 {
                     "Physical Layer": 0,
-                    "x": 25800,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 0,
                     "x": 43000,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 42000
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 1,
                     "x": 43000,
-                    "y": 25200
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 1,
-                    "x": 60200,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 77400,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 25200
+                    "x": 115240,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 25200
+                    "x": 43000,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 42000
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 25200
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -2070,68 +966,33 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 25800,
-                    "lly": 8400,
-                    "urx": 25800,
-                    "ury": 8400
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "VPWR",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 25200
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 77400,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 3,
-                    "x": 25800,
-                    "y": 8400
-                },
-                {
-                    "Physical Layer": 3,
                     "x": 43000,
-                    "y": 8400
+                    "y": 36960
                 },
                 {
-                    "Physical Layer": 3,
-                    "x": 60200,
-                    "y": 8400
+                    "Physical Layer": 1,
+                    "x": 115240,
+                    "y": 36960
                 },
                 {
-                    "Physical Layer": 3,
-                    "x": 77400,
-                    "y": 8400
+                    "Physical Layer": 2,
+                    "x": 43000,
+                    "y": 36960
+                },
+                {
+                    "Physical Layer": 2,
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -2140,23 +1001,23 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 94600,
-                    "lly": 25200,
-                    "urx": 94600,
-                    "ury": 25200
+                    "llx": 115240,
+                    "lly": 36960,
+                    "urx": 115240,
+                    "ury": 36960
                 }
             ],
             "name": "Y0_BOT",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 25200
+                    "x": 115240,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 25200
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -2165,23 +1026,23 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 25800,
-                    "lly": 25200,
-                    "urx": 25800,
-                    "ury": 25200
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "Y0_TOP",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 25200
+                    "x": 43000,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 25200
+                    "x": 43000,
+                    "y": 36960
                 }
             ]
         },
@@ -2190,23 +1051,23 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 94600,
-                    "lly": 25200,
-                    "urx": 94600,
-                    "ury": 25200
+                    "llx": 115240,
+                    "lly": 36960,
+                    "urx": 115240,
+                    "ury": 36960
                 }
             ],
             "name": "Y1_BOT",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 94600,
-                    "y": 25200
+                    "x": 115240,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 94600,
-                    "y": 25200
+                    "x": 115240,
+                    "y": 36960
                 }
             ]
         },
@@ -2215,23 +1076,23 @@
                 {
                     "Physical Layer ll": 1,
                     "Physical Layer ur": 1,
-                    "llx": 25800,
-                    "lly": 25200,
-                    "urx": 25800,
-                    "ury": 25200
+                    "llx": 43000,
+                    "lly": 36960,
+                    "urx": 43000,
+                    "ury": 36960
                 }
             ],
             "name": "Y1_TOP",
             "terminals": [
                 {
                     "Physical Layer": 1,
-                    "x": 25800,
-                    "y": 25200
+                    "x": 43000,
+                    "y": 36960
                 },
                 {
                     "Physical Layer": 2,
-                    "x": 25800,
-                    "y": 25200
+                    "x": 43000,
+                    "y": 36960
                 }
             ]
         }

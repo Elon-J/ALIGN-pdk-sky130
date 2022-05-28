@@ -29,6 +29,14 @@
           "propagate": true
         },
         {
+          "constraint": "horizontal_distance",
+          "abs_distance": 430
+        },
+        {
+          "constraint": "vertical_distance",
+          "abs_distance": 420
+        },
+        {
           "constraint": "symmetric_blocks",
           "pairs": [
             [
@@ -54,6 +62,16 @@
             [
               "X_M8_M9",
               "X_M10_M11"
+            ]
+          ],
+          "direction": "V"
+        },
+        {
+          "constraint": "symmetric_blocks",
+          "pairs": [
+            [
+              "X_C0",
+              "X_C6"
             ]
           ],
           "direction": "V"
@@ -126,7 +144,7 @@
               "actual": "V0"
             }
           ],
-          "abstract_template_name": "INV_B_13409687"
+          "abstract_template_name": "INV_B_74698703"
         },
         {
           "instance_name": "X_M10_M11",
@@ -152,7 +170,7 @@
               "actual": "V5"
             }
           ],
-          "abstract_template_name": "INV_B_13409687"
+          "abstract_template_name": "INV_B_74698703"
         },
         {
           "instance_name": "X_M2_M3",
@@ -178,7 +196,7 @@
               "actual": "V1"
             }
           ],
-          "abstract_template_name": "INV_B_13409687"
+          "abstract_template_name": "INV_B_74698703"
         },
         {
           "instance_name": "X_M4_M5",
@@ -204,7 +222,7 @@
               "actual": "V2"
             }
           ],
-          "abstract_template_name": "INV_B_13409687"
+          "abstract_template_name": "INV_B_74698703"
         },
         {
           "instance_name": "X_M6_M7",
@@ -230,7 +248,7 @@
               "actual": "V3"
             }
           ],
-          "abstract_template_name": "INV_B_13409687"
+          "abstract_template_name": "INV_B_74698703"
         },
         {
           "instance_name": "X_M8_M9",
@@ -256,7 +274,105 @@
               "actual": "V4"
             }
           ],
-          "abstract_template_name": "INV_B_13409687"
+          "abstract_template_name": "INV_B_74698703"
+        },
+        {
+          "instance_name": "X_C0",
+          "fa_map": [
+            {
+              "formal": "MINUS",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "PLUS",
+              "actual": "V0"
+            }
+          ],
+          "abstract_template_name": "CAP_2T_55207366"
+        },
+        {
+          "instance_name": "X_C1",
+          "fa_map": [
+            {
+              "formal": "MINUS",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "PLUS",
+              "actual": "V1"
+            }
+          ],
+          "abstract_template_name": "CAP_2T_54808307"
+        },
+        {
+          "instance_name": "X_C2",
+          "fa_map": [
+            {
+              "formal": "MINUS",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "PLUS",
+              "actual": "V2"
+            }
+          ],
+          "abstract_template_name": "CAP_2T_35139172"
+        },
+        {
+          "instance_name": "X_C3",
+          "fa_map": [
+            {
+              "formal": "MINUS",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "PLUS",
+              "actual": "V3"
+            }
+          ],
+          "abstract_template_name": "CAP_2T_49647387"
+        },
+        {
+          "instance_name": "X_C4",
+          "fa_map": [
+            {
+              "formal": "MINUS",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "PLUS",
+              "actual": "V4"
+            }
+          ],
+          "abstract_template_name": "CAP_2T_42108783"
+        },
+        {
+          "instance_name": "X_C5",
+          "fa_map": [
+            {
+              "formal": "MINUS",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "PLUS",
+              "actual": "V5"
+            }
+          ],
+          "abstract_template_name": "CAP_2T_87620109"
+        },
+        {
+          "instance_name": "X_C6",
+          "fa_map": [
+            {
+              "formal": "MINUS",
+              "actual": "VOUT"
+            },
+            {
+              "formal": "PLUS",
+              "actual": "VGND"
+            }
+          ],
+          "abstract_template_name": "CAP_2T_55207366"
         },
         {
           "instance_name": "X_M12",
@@ -279,7 +395,7 @@
       ]
     },
     {
-      "name": "INV_B_13409687",
+      "name": "INV_B_74698703",
       "parameters": [
         "I",
         "ZN",
@@ -327,7 +443,7 @@
               "actual": "SP"
             }
           ],
-          "abstract_template_name": "PMOS_4T_48942251"
+          "abstract_template_name": "PMOS_4T_43971774"
         }
       ]
     }

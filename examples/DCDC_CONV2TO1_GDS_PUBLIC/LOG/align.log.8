@@ -1,57 +1,57 @@
-2022-05-27 14:47:39 align.main INFO : Reading netlist: /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1/DCDC_CONV2TO1.sp subckt=DCDC_CONV2TO1, flat=1
-2022-05-27 14:47:39 align.compiler.compiler INFO : Starting topology identification...
-2022-05-27 14:47:39 align.compiler.user_const INFO : Reading constraint file: [PosixPath('/home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1/DCDC_CONV2TO1.const.json')]
-2022-05-27 14:47:41 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
-2022-05-27 14:47:41 align.compiler.compiler INFO : Completed topology identification.
-2022-05-27 14:47:41 align.pnr.main INFO : Running Place & Route for DCDC_CONV2TO1
-2022-05-27 14:47:41 align.pnr.placer INFO : Starting bottom-up placement on DCDC_XSW_PMOS 0
-2022-05-27 14:47:41 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:41 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
-2022-05-27 14:47:41 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
-2022-05-27 14:47:41 align.pnr.placer INFO : Starting bottom-up placement on DCDC_XSW_NMOS 1
-2022-05-27 14:47:41 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:41 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
-2022-05-27 14:47:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
-2022-05-27 14:47:42 align.pnr.placer INFO : Starting bottom-up placement on DCDC_HUNIT_CONV2TO1 2
-2022-05-27 14:47:42 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
-2022-05-27 14:47:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
-2022-05-27 14:47:42 align.pnr.placer INFO : Starting bottom-up placement on DCDC_CONV2TO1_1 3
-2022-05-27 14:47:42 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
-2022-05-27 14:47:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
-2022-05-27 14:47:42 align.pnr.placer INFO : Starting bottom-up placement on DCDC_CONV2TO1 4
-2022-05-27 14:47:42 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
-2022-05-27 14:47:42 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
-2022-05-27 14:47:43 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:43 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:44 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
-2022-05-27 14:47:45 align.pnr.router INFO : Starting bottom_up routing on DCDC_CONV2TO1 4 restricted to None
-2022-05-27 14:47:45 align.pnr.router INFO : bottom up routing for DCDC_XSW_PMOS (0) placement version 0
-2022-05-27 14:47:45 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_XSW_PMOS
-2022-05-27 14:47:45 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_XSW_PMOS
-2022-05-27 14:47:45 align.pnr.router INFO : bottom up routing for DCDC_XSW_NMOS (1) placement version 0
-2022-05-27 14:47:45 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_XSW_NMOS
-2022-05-27 14:47:45 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_XSW_NMOS
-2022-05-27 14:47:46 align.pnr.router INFO : bottom up routing for DCDC_HUNIT_CONV2TO1 (2) placement version 0
-2022-05-27 14:47:46 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_HUNIT_CONV2TO1
-2022-05-27 14:47:46 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_HUNIT_CONV2TO1
-2022-05-27 14:47:46 align.pnr.router INFO : bottom up routing for DCDC_CONV2TO1_1 (3) placement version 0
-2022-05-27 14:47:46 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_CONV2TO1_1
-2022-05-27 14:47:46 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_CONV2TO1_1
-2022-05-27 14:47:47 align.pnr.router INFO : bottom up routing for DCDC_CONV2TO1 (4) placement version 0
-2022-05-27 14:47:47 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_CONV2TO1
-2022-05-27 14:47:47 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_CONV2TO1
-2022-05-27 14:47:47 PnR.router.Router.RouteWork INFO : Create power grid: DCDC_CONV2TO1
-2022-05-27 14:47:47 PnR.router.Router.RouteWork INFO : Power routing DCDC_CONV2TO1
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_PMOS_0.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_PMOS_0.python.gds.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_NMOS_0.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_NMOS_0.python.gds.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_HUNIT_CONV2TO1_0.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_HUNIT_CONV2TO1_0.python.gds.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_1_0.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_1_0.python.gds.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_0.json
-2022-05-27 14:47:47 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_0.python.gds.json
+2022-05-27 14:55:26 align.main INFO : Reading netlist: /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1/DCDC_CONV2TO1.sp subckt=DCDC_CONV2TO1, flat=1
+2022-05-27 14:55:26 align.compiler.compiler INFO : Starting topology identification...
+2022-05-27 14:55:26 align.compiler.user_const INFO : Reading constraint file: [PosixPath('/home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1/DCDC_CONV2TO1.const.json')]
+2022-05-27 14:55:28 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
+2022-05-27 14:55:28 align.compiler.compiler INFO : Completed topology identification.
+2022-05-27 14:55:28 align.pnr.main INFO : Running Place & Route for DCDC_CONV2TO1
+2022-05-27 14:55:28 align.pnr.placer INFO : Starting bottom-up placement on DCDC_XSW_PMOS 0
+2022-05-27 14:55:28 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:28 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-27 14:55:28 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-05-27 14:55:28 align.pnr.placer INFO : Starting bottom-up placement on DCDC_XSW_NMOS 1
+2022-05-27 14:55:28 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:28 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-27 14:55:28 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-05-27 14:55:29 align.pnr.placer INFO : Starting bottom-up placement on DCDC_HUNIT_CONV2TO1 2
+2022-05-27 14:55:29 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:29 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-27 14:55:29 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-05-27 14:55:29 align.pnr.placer INFO : Starting bottom-up placement on DCDC_CONV2TO1_1 3
+2022-05-27 14:55:29 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:29 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-27 14:55:29 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-05-27 14:55:29 align.pnr.placer INFO : Starting bottom-up placement on DCDC_CONV2TO1 4
+2022-05-27 14:55:29 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:29 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-27 14:55:29 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-05-27 14:55:30 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:30 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:30 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-27 14:55:31 align.pnr.router INFO : Starting bottom_up routing on DCDC_CONV2TO1 4 restricted to None
+2022-05-27 14:55:31 align.pnr.router INFO : bottom up routing for DCDC_XSW_PMOS (0) placement version 0
+2022-05-27 14:55:31 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_XSW_PMOS
+2022-05-27 14:55:31 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_XSW_PMOS
+2022-05-27 14:55:32 align.pnr.router INFO : bottom up routing for DCDC_XSW_NMOS (1) placement version 0
+2022-05-27 14:55:32 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_XSW_NMOS
+2022-05-27 14:55:32 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_XSW_NMOS
+2022-05-27 14:55:32 align.pnr.router INFO : bottom up routing for DCDC_HUNIT_CONV2TO1 (2) placement version 0
+2022-05-27 14:55:32 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_HUNIT_CONV2TO1
+2022-05-27 14:55:32 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_HUNIT_CONV2TO1
+2022-05-27 14:55:33 align.pnr.router INFO : bottom up routing for DCDC_CONV2TO1_1 (3) placement version 0
+2022-05-27 14:55:33 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_CONV2TO1_1
+2022-05-27 14:55:33 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_CONV2TO1_1
+2022-05-27 14:55:33 align.pnr.router INFO : bottom up routing for DCDC_CONV2TO1 (4) placement version 0
+2022-05-27 14:55:33 PnR.router.Router.RouteWork INFO : GcellGlobalRouter: DCDC_CONV2TO1
+2022-05-27 14:55:33 PnR.router.Router.RouteWork INFO : GcellDetailRouter: DCDC_CONV2TO1
+2022-05-27 14:55:33 PnR.router.Router.RouteWork INFO : Create power grid: DCDC_CONV2TO1
+2022-05-27 14:55:33 PnR.router.Router.RouteWork INFO : Power routing DCDC_CONV2TO1
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_PMOS_0.json
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_PMOS_0.python.gds.json
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_NMOS_0.json
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_XSW_NMOS_0.python.gds.json
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_HUNIT_CONV2TO1_0.json
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_HUNIT_CONV2TO1_0.python.gds.json
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_1_0.json
+2022-05-27 14:55:33 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_1_0.python.gds.json
+2022-05-27 14:55:34 align.pnr.main INFO : OUTPUT json at /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_0.json
+2022-05-27 14:55:34 align.pnr.main INFO : OUTPUT gds.json /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_CONV2TO1_GDS_PUBLIC/3_pnr/DCDC_CONV2TO1_0.python.gds.json

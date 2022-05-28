@@ -1,6 +1,6 @@
-2022-05-25 03:08:40 align.main INFO : Reading netlist: /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC/DCDC_DAC.sp subckt=DCDC_DAC, flat=1
-2022-05-25 03:08:40 align.compiler.compiler INFO : Starting topology identification...
-2022-05-25 03:08:40 align.cmdline ERROR : Fatal Error. Cannot proceed
+2022-05-25 03:09:36 align.main INFO : Reading netlist: /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC/DCDC_DAC.sp subckt=DCDC_DAC, flat=1
+2022-05-25 03:09:36 align.compiler.compiler INFO : Starting topology identification...
+2022-05-25 03:09:36 align.cmdline ERROR : Fatal Error. Cannot proceed
 Traceback (most recent call last):
   File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/schema/parser.py", line 167, in _process_instance
     self._scope[-1].elements.append(Instance(name=name, model=model.name,
@@ -28,4 +28,4 @@ Traceback (most recent call last):
     self._process_instance(token.value.upper(), args, kwargs)
   File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/schema/parser.py", line 171, in _process_instance
     assert False, f"could not identify device parameters {name} {kwargs} \
-AssertionError: could not identify device parameters M20 {'W': 1, 'L': 1}                     allowed parameters of model SKY130_FD_PR__CAP_MIM_M3_1 are {'VALUE': '0', 'PARALLEL': '1', 'STACK': '1', 'M': '1', 'L': '1', 'W': '1'}
+AssertionError: could not identify device parameters M20 {'VALUE': 4}                     allowed parameters of model SKY130_FD_PR__CAP_MIM_M3_1 are {'VALUE': '0', 'PARALLEL': '1', 'STACK': '1', 'M': '1', 'L': '1', 'W': '1'}

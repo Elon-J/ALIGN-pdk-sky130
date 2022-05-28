@@ -1,6 +1,14 @@
 {
   "constraints": [
     {
+      "const_name": "bias_Hgraph",
+      "distance": 430
+    },
+    {
+      "const_name": "bias_Vgraph",
+      "distance": 420
+    },
+    {
       "pairs": [
         {
           "type": "sympair",
@@ -28,6 +36,17 @@
           "type": "sympair",
           "block1": "X_M8_M9",
           "block2": "X_M10_M11"
+        }
+      ],
+      "const_name": "SymmBlock",
+      "axis_dir": "V"
+    },
+    {
+      "pairs": [
+        {
+          "type": "sympair",
+          "block1": "X_C0",
+          "block2": "X_C6"
         }
       ],
       "const_name": "SymmBlock",

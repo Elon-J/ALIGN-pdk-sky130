@@ -1,31 +1,12 @@
-2022-05-25 03:09:13 align.main INFO : Reading netlist: /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC/DCDC_DAC.sp subckt=DCDC_DAC, flat=1
-2022-05-25 03:09:13 align.compiler.compiler INFO : Starting topology identification...
-2022-05-25 03:09:13 align.cmdline ERROR : Fatal Error. Cannot proceed
-Traceback (most recent call last):
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/schema/parser.py", line 167, in _process_instance
-    self._scope[-1].elements.append(Instance(name=name, model=model.name,
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/schema/types.py", line 75, in __init__
-    super().__init__(*args, **kwargs)
-  File "pydantic/main.py", line 331, in pydantic.main.BaseModel.__init__
-pydantic.error_wrappers.ValidationError: 1 validation error for Instance
-name
-  M20 does not start with C (type=assertion_error)
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/cmdline.py", line 166, in parse_args
-    return schematic2layout(**vars(arguments))
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/main.py", line 163, in schematic2layout
-    primitive_lib = generate_hierarchy(netlist, subckt, topology_dir, flatten, pdk_dir)
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/compiler/compiler.py", line 27, in generate_hierarchy
-    ckt_data, primitive_library = compiler_input(
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/compiler/compiler.py", line 81, in compiler_input
-    ckt_parser.parse(lines)
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/schema/parser.py", line 88, in parse
-    self._dispatch(cache)
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/schema/parser.py", line 106, in _dispatch
-    self._process_instance(token.value.upper(), args, kwargs)
-  File "/home/elonjia/Desktop/tool_package/ALIGN-public/general/lib/python3.8/site-packages/align/schema/parser.py", line 171, in _process_instance
-    assert False, f"could not identify device parameters {name} {kwargs} \
-AssertionError: could not identify device parameters M20 {'VALUE': 4e-15}                     allowed parameters of model SKY130_FD_PR__CAP_MIM_M3_1 are {'VALUE': '0', 'PARALLEL': '1', 'STACK': '1', 'M': '1', 'L': '1', 'W': '1'}
+2022-05-25 03:10:14 align.main INFO : Reading netlist: /home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC/DCDC_DAC.sp subckt=DCDC_DAC, flat=1
+2022-05-25 03:10:14 align.compiler.compiler INFO : Starting topology identification...
+2022-05-25 03:10:14 align.compiler.user_const INFO : Reading constraint file: [PosixPath('/home/elonjia/Desktop/tool_package/ALIGN-pdk-sky130/examples/DCDC_DAC/DCDC_DAC.const.json')]
+2022-05-25 03:10:16 align.compiler.compiler INFO : Power and ground nets not found. Power grid will not be constructed.
+2022-05-25 03:10:16 align.compiler.compiler INFO : Completed topology identification.
+2022-05-25 03:10:17 align.pnr.main INFO : Running Place & Route for DCDC_DAC
+2022-05-25 03:10:17 align.pnr.placer INFO : Starting bottom-up placement on INV_B_74698703 1
+2022-05-25 03:10:17 PnR.placer.SeqPair.SeqPair INFO : Enumerated search
+2022-05-25 03:10:17 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.
+2022-05-25 03:10:17 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Exhausted all permutations of sequence pairs
+2022-05-25 03:10:17 align.pnr.placer INFO : Starting bottom-up placement on DCDC_DAC 0
+2022-05-25 03:10:17 PnR.placer.Placer.PlacementCoreAspectRatio_ILP INFO : Required 1 perturbations to generate a feasible solution.

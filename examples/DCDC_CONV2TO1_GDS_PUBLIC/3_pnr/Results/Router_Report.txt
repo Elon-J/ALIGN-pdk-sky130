@@ -35,7 +35,7 @@ Node DCDC_HUNIT_CONV2TO1_0
   Net Y1
     Pin X0.VOUT1 Find a path 1
     Pin X1.VOUT1 Find a path 1
-Node DCDC_XSW_PMOS_1
+Node DCDC_XSW_PMOS_0
   Net VPB
     Pin X_M0_M1.B Find a path 1
     Pin X_M2_M3.B Find a path 1
@@ -50,7 +50,7 @@ Node DCDC_XSW_PMOS_1
   Net VIN
     Pin X_M0_M1.S Find a path 1
     Pin X_M2_M3.S Find a path 1
-Node DCDC_XSW_NMOS_1
+Node DCDC_XSW_NMOS_0
   Net VNB
     Pin X_M0_M1.B Find a path 1
     Pin X_M2_M3.B Find a path 1
@@ -65,7 +65,7 @@ Node DCDC_XSW_NMOS_1
   Net VIN
     Pin X_M0_M1.S Find a path 1
     Pin X_M2_M3.S Find a path 1
-Node DCDC_HUNIT_CONV2TO1_1
+Node DCDC_HUNIT_CONV2TO1_0
   Net Y0
     Pin X0.VOUT0 Find a path 1
     Pin X1.VOUT0 Find a path 1

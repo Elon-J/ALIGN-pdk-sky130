@@ -1,3 +1,5 @@
 [ 
-    {"constraint": "ConfigureCompiler", "is_digital": false}
+    {"constraint": "ConfigureCompiler", "is_digital": false},
+    {"constraint" : "HorizontalDistance", "abs_distance" : 430},
+	{"constraint" : "VerticalDistance", "abs_distance" : 420}
 ]

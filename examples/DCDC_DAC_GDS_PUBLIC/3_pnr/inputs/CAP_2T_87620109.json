@@ -1,0 +1,111 @@
+{
+  "bbox": [
+    0,
+    0,
+    1000001980,
+    32000004540
+  ],
+  "globalRoutes": [],
+  "globalRouteGrid": [],
+  "terminals": [
+    {
+      "netName": null,
+      "layer": "CapMIMContact",
+      "rect": [
+        1210,
+        2820,
+        1410,
+        3020
+      ],
+      "netType": "drawing"
+    },
+    {
+      "netName": "Boundary",
+      "layer": "Boundary",
+      "rect": [
+        0,
+        0,
+        1000001980,
+        32000004540
+      ],
+      "netType": "drawing"
+    },
+    {
+      "layer": "M4",
+      "netName": "MINUS",
+      "rect": [
+        860,
+        2370,
+        1000001160,
+        32000002670
+      ],
+      "netType": "drawing"
+    },
+    {
+      "layer": "M4",
+      "netName": "PLUS",
+      "rect": [
+        1000000710,
+        32000000560,
+        1000001160,
+        32000003080
+      ],
+      "netType": "drawing"
+    },
+    {
+      "layer": "M4",
+      "netName": "PLUS",
+      "rect": [
+        265,
+        32000002880,
+        1000001285,
+        32000003680
+      ],
+      "netType": "pin"
+    },
+    {
+      "layer": "M4",
+      "netName": "MINUS",
+      "rect": [
+        265,
+        860,
+        1000001285,
+        1660
+      ],
+      "netType": "pin"
+    },
+    {
+      "layer": "M5",
+      "netName": "MINUS",
+      "rect": [
+        1085,
+        830,
+        1535,
+        3350
+      ],
+      "netType": "drawing"
+    },
+    {
+      "layer": "V4",
+      "netName": "MINUS",
+      "rect": [
+        1210,
+        1160,
+        1410,
+        1360
+      ],
+      "netType": "drawing"
+    },
+    {
+      "layer": "CapMIMLayer",
+      "netName": "MINUS",
+      "rect": [
+        1010,
+        2520,
+        1000001010,
+        32000002520
+      ],
+      "netType": "drawing"
+    }
+  ]
+}
